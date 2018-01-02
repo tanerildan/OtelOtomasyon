@@ -36,7 +36,7 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSorgula = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -103,21 +103,21 @@
             this.textBox4.Size = new System.Drawing.Size(137, 23);
             this.textBox4.TabIndex = 1;
             // 
-            // button1
+            // btnSorgula
             // 
-            this.button1.Location = new System.Drawing.Point(171, 203);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 35);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSorgula.Location = new System.Drawing.Point(171, 203);
+            this.btnSorgula.Name = "btnSorgula";
+            this.btnSorgula.Size = new System.Drawing.Size(75, 35);
+            this.btnSorgula.TabIndex = 2;
+            this.btnSorgula.Text = "Sorgula";
+            this.btnSorgula.UseVisualStyleBackColor = true;
             // 
             // FormKimlikSorgulama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(394, 306);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSorgula);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
@@ -146,6 +146,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSorgula;
     }
 }
