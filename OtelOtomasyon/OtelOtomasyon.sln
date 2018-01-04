@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtelOtomasyon.Core", "OtelO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtelOtomasyon.DAL", "OtelOtomasyon.DAL\OtelOtomasyon.DAL.csproj", "{840CE27E-8AE0-4806-AFD0-60BC0325A8BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtelOtomassyon.BLL", "OtelOtomassyon.BLL\OtelOtomassyon.BLL.csproj", "{D73C059D-8953-4020-B830-9F35D7D77F4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{840CE27E-8AE0-4806-AFD0-60BC0325A8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{840CE27E-8AE0-4806-AFD0-60BC0325A8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{840CE27E-8AE0-4806-AFD0-60BC0325A8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73C059D-8953-4020-B830-9F35D7D77F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73C059D-8953-4020-B830-9F35D7D77F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73C059D-8953-4020-B830-9F35D7D77F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73C059D-8953-4020-B830-9F35D7D77F4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
