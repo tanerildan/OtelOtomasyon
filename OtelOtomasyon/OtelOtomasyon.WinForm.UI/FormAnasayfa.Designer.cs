@@ -28,99 +28,99 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnOdaIslemleri = new System.Windows.Forms.Button();
+            this.btnPersonelIslemleri = new System.Windows.Forms.Button();
+            this.btnResepsiyon = new System.Windows.Forms.Button();
+            this.btnSatinAlma = new System.Windows.Forms.Button();
+            this.btnFatura = new System.Windows.Forms.Button();
+            this.btnRapor = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnOdaIslemleri
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(256, 210);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(174, 126);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Oda İşlemleri";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnOdaIslemleri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnOdaIslemleri.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnOdaIslemleri.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOdaIslemleri.FlatAppearance.BorderSize = 0;
+            this.btnOdaIslemleri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOdaIslemleri.Location = new System.Drawing.Point(256, 210);
+            this.btnOdaIslemleri.Name = "btnOdaIslemleri";
+            this.btnOdaIslemleri.Size = new System.Drawing.Size(174, 126);
+            this.btnOdaIslemleri.TabIndex = 0;
+            this.btnOdaIslemleri.Text = "Oda İşlemleri";
+            this.btnOdaIslemleri.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnPersonelIslemleri
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(551, 210);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(174, 126);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Personel İşlemleri";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnPersonelIslemleri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnPersonelIslemleri.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnPersonelIslemleri.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPersonelIslemleri.FlatAppearance.BorderSize = 0;
+            this.btnPersonelIslemleri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPersonelIslemleri.Location = new System.Drawing.Point(551, 210);
+            this.btnPersonelIslemleri.Name = "btnPersonelIslemleri";
+            this.btnPersonelIslemleri.Size = new System.Drawing.Size(174, 126);
+            this.btnPersonelIslemleri.TabIndex = 0;
+            this.btnPersonelIslemleri.Text = "Personel İşlemleri";
+            this.btnPersonelIslemleri.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnResepsiyon
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(846, 210);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(174, 126);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Resepsiyon";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnResepsiyon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnResepsiyon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnResepsiyon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnResepsiyon.FlatAppearance.BorderSize = 0;
+            this.btnResepsiyon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnResepsiyon.Location = new System.Drawing.Point(846, 210);
+            this.btnResepsiyon.Name = "btnResepsiyon";
+            this.btnResepsiyon.Size = new System.Drawing.Size(174, 126);
+            this.btnResepsiyon.TabIndex = 0;
+            this.btnResepsiyon.Text = "Resepsiyon";
+            this.btnResepsiyon.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnSatinAlma
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(256, 436);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(174, 126);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "Satın Alma Birimi";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnSatinAlma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnSatinAlma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSatinAlma.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSatinAlma.FlatAppearance.BorderSize = 0;
+            this.btnSatinAlma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSatinAlma.Location = new System.Drawing.Point(256, 436);
+            this.btnSatinAlma.Name = "btnSatinAlma";
+            this.btnSatinAlma.Size = new System.Drawing.Size(174, 126);
+            this.btnSatinAlma.TabIndex = 0;
+            this.btnSatinAlma.Text = "Satın Alma Birimi";
+            this.btnSatinAlma.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnFatura
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(551, 436);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(174, 126);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "Fatura";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnFatura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnFatura.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnFatura.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFatura.FlatAppearance.BorderSize = 0;
+            this.btnFatura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFatura.Location = new System.Drawing.Point(551, 436);
+            this.btnFatura.Name = "btnFatura";
+            this.btnFatura.Size = new System.Drawing.Size(174, 126);
+            this.btnFatura.TabIndex = 0;
+            this.btnFatura.Text = "Fatura";
+            this.btnFatura.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btnRapor
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(846, 436);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(174, 126);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "Detaylı Rapor";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnRapor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnRapor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnRapor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRapor.FlatAppearance.BorderSize = 0;
+            this.btnRapor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRapor.Location = new System.Drawing.Point(846, 436);
+            this.btnRapor.Name = "btnRapor";
+            this.btnRapor.Size = new System.Drawing.Size(174, 126);
+            this.btnRapor.TabIndex = 0;
+            this.btnRapor.Text = "Detaylı Rapor";
+            this.btnRapor.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
@@ -163,12 +163,12 @@
             this.ClientSize = new System.Drawing.Size(1276, 773);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRapor);
+            this.Controls.Add(this.btnFatura);
+            this.Controls.Add(this.btnSatinAlma);
+            this.Controls.Add(this.btnResepsiyon);
+            this.Controls.Add(this.btnPersonelIslemleri);
+            this.Controls.Add(this.btnOdaIslemleri);
             this.Font = new System.Drawing.Font("Arial", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormAnasayfa";
@@ -182,12 +182,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnOdaIslemleri;
+        private System.Windows.Forms.Button btnPersonelIslemleri;
+        private System.Windows.Forms.Button btnResepsiyon;
+        private System.Windows.Forms.Button btnSatinAlma;
+        private System.Windows.Forms.Button btnFatura;
+        private System.Windows.Forms.Button btnRapor;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label1;
     }

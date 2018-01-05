@@ -11,7 +11,7 @@ namespace OtelOtomasyon.DAL.Entities
         public int Id { get; set; }
         public string OdaAd { get; set; }
         public int FiyatId { get; set; }
-        public Boolean  Aktif { get; set; }
+        public Boolean DoluMu { get; set; }
         public int KatId { get; set; }
 
         public virtual Fiyat Fiyat { get; set; }

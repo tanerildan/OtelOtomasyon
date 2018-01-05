@@ -23,7 +23,7 @@ namespace OtelOtomasyon.DAL.Mappings
             .HasColumnOrder(2)
             .HasMaxLength(20);
 
-            Property(x => x.Aktif)
+            Property(x => x.DoluMu)
             .HasColumnType("bit")
             .IsRequired()            
             .HasColumnOrder(4);
