@@ -58,6 +58,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="asd\" />
     <Folder Include="DTOs\" />
     <Folder Include="Services\" />
     <Folder Include="Validations\" />
