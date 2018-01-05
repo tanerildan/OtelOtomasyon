@@ -93,6 +93,16 @@ namespace OtelOtomasyon.WinForm.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap double_png_image_96290 {
+            get {
+                object obj = ResourceManager.GetObject("double-png-image-96290", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap loginwallpaper {
             get {
                 object obj = ResourceManager.GetObject("loginwallpaper", resourceCulture);
@@ -116,6 +126,16 @@ namespace OtelOtomasyon.WinForm.UI.Properties {
         internal static System.Drawing.Bitmap search_icon_orange {
             get {
                 object obj = ResourceManager.GetObject("search-icon-orange", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap single_bed_512 {
+            get {
+                object obj = ResourceManager.GetObject("single_bed-512", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

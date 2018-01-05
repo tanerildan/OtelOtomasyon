@@ -114,6 +114,18 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormOdaIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOdaIslemleri.Designer.cs">
+      <DependentUpon>FormOdaIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPersonelIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPersonelIslemleri.Designer.cs">
+      <DependentUpon>FormPersonelIslemleri.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormResepsiyon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -205,6 +217,12 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\double-png-image-96290.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\single_bed-512.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -11,6 +11,7 @@ namespace OtelOtomasyon.DAL.Entities
         public int Id { get; set; }
         public string TurAd { get; set; }
         public string Aciklama { get; set; }
+
         public virtual ICollection<Fiyat> Fiyatlar { get; set; }
     }
 }

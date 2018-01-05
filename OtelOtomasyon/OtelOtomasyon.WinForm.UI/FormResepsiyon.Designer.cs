@@ -31,6 +31,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dtpTarih = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn4801 = new System.Windows.Forms.Button();
+            this.btn4701 = new System.Windows.Forms.Button();
+            this.btn4601 = new System.Windows.Forms.Button();
+            this.btn4501 = new System.Windows.Forms.Button();
+            this.btn4401 = new System.Windows.Forms.Button();
+            this.btn4301 = new System.Windows.Forms.Button();
+            this.btn4201 = new System.Windows.Forms.Button();
+            this.btn4101 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label8 = new System.Windows.Forms.Label();
@@ -41,32 +50,56 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn3801 = new System.Windows.Forms.Button();
             this.label60 = new System.Windows.Forms.Label();
+            this.btn3701 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
+            this.btn3601 = new System.Windows.Forms.Button();
+            this.btn3501 = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
+            this.btn3401 = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
+            this.btn3301 = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
+            this.btn3201 = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
+            this.btn3101 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btn2801 = new System.Windows.Forms.Button();
             this.label62 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
+            this.btn2701 = new System.Windows.Forms.Button();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
+            this.btn2601 = new System.Windows.Forms.Button();
+            this.btn2501 = new System.Windows.Forms.Button();
             this.label34 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
+            this.btn2401 = new System.Windows.Forms.Button();
             this.label30 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
+            this.btn2301 = new System.Windows.Forms.Button();
+            this.btn2101 = new System.Windows.Forms.Button();
+            this.btn2201 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btn1801 = new System.Windows.Forms.Button();
             this.label64 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
+            this.btn1701 = new System.Windows.Forms.Button();
             this.label49 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
+            this.btn1601 = new System.Windows.Forms.Button();
+            this.btn1501 = new System.Windows.Forms.Button();
             this.label55 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
+            this.btn1201 = new System.Windows.Forms.Button();
+            this.btn1401 = new System.Windows.Forms.Button();
+            this.btn1101 = new System.Windows.Forms.Button();
+            this.btn1301 = new System.Windows.Forms.Button();
             this.label66 = new System.Windows.Forms.Label();
             this.txtAd = new System.Windows.Forms.TextBox();
             this.cbOdaTur = new System.Windows.Forms.ComboBox();
@@ -121,39 +154,24 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lbSonHareketler = new System.Windows.Forms.ListBox();
             this.btnOK = new System.Windows.Forms.Button();
-            this.btn4101 = new System.Windows.Forms.Button();
-            this.btn4201 = new System.Windows.Forms.Button();
-            this.btn4301 = new System.Windows.Forms.Button();
-            this.btn4401 = new System.Windows.Forms.Button();
-            this.btn4501 = new System.Windows.Forms.Button();
-            this.btn4601 = new System.Windows.Forms.Button();
-            this.btn4701 = new System.Windows.Forms.Button();
-            this.btn4801 = new System.Windows.Forms.Button();
-            this.btn3101 = new System.Windows.Forms.Button();
-            this.btn3201 = new System.Windows.Forms.Button();
-            this.btn3301 = new System.Windows.Forms.Button();
-            this.btn3401 = new System.Windows.Forms.Button();
-            this.btn3501 = new System.Windows.Forms.Button();
-            this.btn3601 = new System.Windows.Forms.Button();
-            this.btn3701 = new System.Windows.Forms.Button();
-            this.btn3801 = new System.Windows.Forms.Button();
-            this.btn2101 = new System.Windows.Forms.Button();
-            this.btn2201 = new System.Windows.Forms.Button();
-            this.btn2301 = new System.Windows.Forms.Button();
-            this.btn2401 = new System.Windows.Forms.Button();
-            this.btn2501 = new System.Windows.Forms.Button();
-            this.btn2601 = new System.Windows.Forms.Button();
-            this.btn2701 = new System.Windows.Forms.Button();
-            this.btn2801 = new System.Windows.Forms.Button();
-            this.btn1201 = new System.Windows.Forms.Button();
-            this.btn1101 = new System.Windows.Forms.Button();
-            this.btn1301 = new System.Windows.Forms.Button();
-            this.btn1401 = new System.Windows.Forms.Button();
-            this.btn1501 = new System.Windows.Forms.Button();
-            this.btn1601 = new System.Windows.Forms.Button();
-            this.btn1701 = new System.Windows.Forms.Button();
-            this.btn1801 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -165,6 +183,22 @@
             this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -177,7 +211,7 @@
             this.label1.Size = new System.Drawing.Size(79, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "4101";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // dtpTarih
             // 
@@ -192,6 +226,12 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.pictureBox4);
+            this.groupBox1.Controls.Add(this.pictureBox3);
+            this.groupBox1.Controls.Add(this.pictureBox6);
+            this.groupBox1.Controls.Add(this.pictureBox2);
+            this.groupBox1.Controls.Add(this.pictureBox5);
+            this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.btn4801);
             this.groupBox1.Controls.Add(this.btn4701);
             this.groupBox1.Controls.Add(this.btn4601);
@@ -218,6 +258,121 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "4.KAT";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox1.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox1.Location = new System.Drawing.Point(190, 23);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btn4801
+            // 
+            this.btn4801.BackColor = System.Drawing.Color.Silver;
+            this.btn4801.FlatAppearance.BorderSize = 0;
+            this.btn4801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4801.ForeColor = System.Drawing.Color.Black;
+            this.btn4801.Location = new System.Drawing.Point(750, 46);
+            this.btn4801.Name = "btn4801";
+            this.btn4801.Size = new System.Drawing.Size(79, 49);
+            this.btn4801.TabIndex = 13;
+            this.btn4801.Text = "BOŞ";
+            this.btn4801.UseVisualStyleBackColor = false;
+            // 
+            // btn4701
+            // 
+            this.btn4701.BackColor = System.Drawing.Color.Silver;
+            this.btn4701.FlatAppearance.BorderSize = 0;
+            this.btn4701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4701.ForeColor = System.Drawing.Color.Black;
+            this.btn4701.Location = new System.Drawing.Point(648, 46);
+            this.btn4701.Name = "btn4701";
+            this.btn4701.Size = new System.Drawing.Size(79, 49);
+            this.btn4701.TabIndex = 13;
+            this.btn4701.Text = "BOŞ";
+            this.btn4701.UseVisualStyleBackColor = false;
+            // 
+            // btn4601
+            // 
+            this.btn4601.BackColor = System.Drawing.Color.Silver;
+            this.btn4601.FlatAppearance.BorderSize = 0;
+            this.btn4601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4601.ForeColor = System.Drawing.Color.Black;
+            this.btn4601.Location = new System.Drawing.Point(544, 46);
+            this.btn4601.Name = "btn4601";
+            this.btn4601.Size = new System.Drawing.Size(79, 49);
+            this.btn4601.TabIndex = 13;
+            this.btn4601.Text = "BOŞ";
+            this.btn4601.UseVisualStyleBackColor = false;
+            // 
+            // btn4501
+            // 
+            this.btn4501.BackColor = System.Drawing.Color.Silver;
+            this.btn4501.FlatAppearance.BorderSize = 0;
+            this.btn4501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4501.ForeColor = System.Drawing.Color.Black;
+            this.btn4501.Location = new System.Drawing.Point(441, 46);
+            this.btn4501.Name = "btn4501";
+            this.btn4501.Size = new System.Drawing.Size(79, 49);
+            this.btn4501.TabIndex = 13;
+            this.btn4501.Text = "BOŞ";
+            this.btn4501.UseVisualStyleBackColor = false;
+            // 
+            // btn4401
+            // 
+            this.btn4401.BackColor = System.Drawing.Color.Silver;
+            this.btn4401.FlatAppearance.BorderSize = 0;
+            this.btn4401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4401.ForeColor = System.Drawing.Color.Black;
+            this.btn4401.Location = new System.Drawing.Point(339, 46);
+            this.btn4401.Name = "btn4401";
+            this.btn4401.Size = new System.Drawing.Size(79, 49);
+            this.btn4401.TabIndex = 13;
+            this.btn4401.Text = "BOŞ";
+            this.btn4401.UseVisualStyleBackColor = false;
+            // 
+            // btn4301
+            // 
+            this.btn4301.BackColor = System.Drawing.Color.Silver;
+            this.btn4301.FlatAppearance.BorderSize = 0;
+            this.btn4301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4301.ForeColor = System.Drawing.Color.Black;
+            this.btn4301.Location = new System.Drawing.Point(238, 46);
+            this.btn4301.Name = "btn4301";
+            this.btn4301.Size = new System.Drawing.Size(79, 49);
+            this.btn4301.TabIndex = 13;
+            this.btn4301.Text = "BOŞ";
+            this.btn4301.UseVisualStyleBackColor = false;
+            // 
+            // btn4201
+            // 
+            this.btn4201.BackColor = System.Drawing.Color.Silver;
+            this.btn4201.FlatAppearance.BorderSize = 0;
+            this.btn4201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4201.ForeColor = System.Drawing.Color.Black;
+            this.btn4201.Location = new System.Drawing.Point(134, 46);
+            this.btn4201.Name = "btn4201";
+            this.btn4201.Size = new System.Drawing.Size(79, 49);
+            this.btn4201.TabIndex = 13;
+            this.btn4201.Text = "BOŞ";
+            this.btn4201.UseVisualStyleBackColor = false;
+            // 
+            // btn4101
+            // 
+            this.btn4101.BackColor = System.Drawing.Color.Silver;
+            this.btn4101.FlatAppearance.BorderSize = 0;
+            this.btn4101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4101.ForeColor = System.Drawing.Color.Black;
+            this.btn4101.Location = new System.Drawing.Point(33, 46);
+            this.btn4101.Name = "btn4101";
+            this.btn4101.Size = new System.Drawing.Size(79, 49);
+            this.btn4101.TabIndex = 13;
+            this.btn4101.Text = "BOŞ";
+            this.btn4101.UseVisualStyleBackColor = false;
             // 
             // tabControl1
             // 
@@ -248,7 +403,7 @@
             this.label8.Size = new System.Drawing.Size(79, 23);
             this.label8.TabIndex = 0;
             this.label8.Text = "4401";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label14
             // 
@@ -260,7 +415,7 @@
             this.label14.Size = new System.Drawing.Size(79, 23);
             this.label14.TabIndex = 0;
             this.label14.Text = "4601";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label4
             // 
@@ -272,7 +427,7 @@
             this.label4.Size = new System.Drawing.Size(79, 23);
             this.label4.TabIndex = 0;
             this.label4.Text = "4201";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label58
             // 
@@ -284,7 +439,7 @@
             this.label58.Size = new System.Drawing.Size(79, 23);
             this.label58.TabIndex = 0;
             this.label58.Text = "4801";
-            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label12
             // 
@@ -296,7 +451,7 @@
             this.label12.Size = new System.Drawing.Size(79, 23);
             this.label12.TabIndex = 0;
             this.label12.Text = "4701";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label6
             // 
@@ -308,7 +463,7 @@
             this.label6.Size = new System.Drawing.Size(79, 23);
             this.label6.TabIndex = 0;
             this.label6.Text = "4301";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label10
             // 
@@ -320,13 +475,17 @@
             this.label10.Size = new System.Drawing.Size(79, 23);
             this.label10.TabIndex = 0;
             this.label10.Text = "4501";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.pictureBox8);
+            this.groupBox2.Controls.Add(this.pictureBox9);
             this.groupBox2.Controls.Add(this.btn3801);
+            this.groupBox2.Controls.Add(this.pictureBox10);
             this.groupBox2.Controls.Add(this.label60);
+            this.groupBox2.Controls.Add(this.pictureBox7);
             this.groupBox2.Controls.Add(this.btn3701);
             this.groupBox2.Controls.Add(this.label23);
             this.groupBox2.Controls.Add(this.btn3601);
@@ -350,6 +509,19 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3.KAT";
             // 
+            // btn3801
+            // 
+            this.btn3801.BackColor = System.Drawing.Color.Silver;
+            this.btn3801.FlatAppearance.BorderSize = 0;
+            this.btn3801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3801.ForeColor = System.Drawing.Color.Black;
+            this.btn3801.Location = new System.Drawing.Point(750, 46);
+            this.btn3801.Name = "btn3801";
+            this.btn3801.Size = new System.Drawing.Size(79, 49);
+            this.btn3801.TabIndex = 13;
+            this.btn3801.Text = "BOŞ";
+            this.btn3801.UseVisualStyleBackColor = false;
+            // 
             // label60
             // 
             this.label60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -360,7 +532,20 @@
             this.label60.Size = new System.Drawing.Size(79, 23);
             this.label60.TabIndex = 0;
             this.label60.Text = "3801";
-            this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn3701
+            // 
+            this.btn3701.BackColor = System.Drawing.Color.Silver;
+            this.btn3701.FlatAppearance.BorderSize = 0;
+            this.btn3701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3701.ForeColor = System.Drawing.Color.Black;
+            this.btn3701.Location = new System.Drawing.Point(648, 46);
+            this.btn3701.Name = "btn3701";
+            this.btn3701.Size = new System.Drawing.Size(79, 49);
+            this.btn3701.TabIndex = 13;
+            this.btn3701.Text = "BOŞ";
+            this.btn3701.UseVisualStyleBackColor = false;
             // 
             // label23
             // 
@@ -372,7 +557,33 @@
             this.label23.Size = new System.Drawing.Size(79, 23);
             this.label23.TabIndex = 0;
             this.label23.Text = "3701";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn3601
+            // 
+            this.btn3601.BackColor = System.Drawing.Color.Silver;
+            this.btn3601.FlatAppearance.BorderSize = 0;
+            this.btn3601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3601.ForeColor = System.Drawing.Color.Black;
+            this.btn3601.Location = new System.Drawing.Point(544, 46);
+            this.btn3601.Name = "btn3601";
+            this.btn3601.Size = new System.Drawing.Size(79, 49);
+            this.btn3601.TabIndex = 13;
+            this.btn3601.Text = "BOŞ";
+            this.btn3601.UseVisualStyleBackColor = false;
+            // 
+            // btn3501
+            // 
+            this.btn3501.BackColor = System.Drawing.Color.Silver;
+            this.btn3501.FlatAppearance.BorderSize = 0;
+            this.btn3501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3501.ForeColor = System.Drawing.Color.Black;
+            this.btn3501.Location = new System.Drawing.Point(441, 46);
+            this.btn3501.Name = "btn3501";
+            this.btn3501.Size = new System.Drawing.Size(79, 49);
+            this.btn3501.TabIndex = 13;
+            this.btn3501.Text = "BOŞ";
+            this.btn3501.UseVisualStyleBackColor = false;
             // 
             // label26
             // 
@@ -384,7 +595,20 @@
             this.label26.Size = new System.Drawing.Size(79, 23);
             this.label26.TabIndex = 0;
             this.label26.Text = "3301";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn3401
+            // 
+            this.btn3401.BackColor = System.Drawing.Color.Silver;
+            this.btn3401.FlatAppearance.BorderSize = 0;
+            this.btn3401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3401.ForeColor = System.Drawing.Color.Black;
+            this.btn3401.Location = new System.Drawing.Point(339, 46);
+            this.btn3401.Name = "btn3401";
+            this.btn3401.Size = new System.Drawing.Size(79, 49);
+            this.btn3401.TabIndex = 13;
+            this.btn3401.Text = "BOŞ";
+            this.btn3401.UseVisualStyleBackColor = false;
             // 
             // label27
             // 
@@ -396,7 +620,20 @@
             this.label27.Size = new System.Drawing.Size(79, 23);
             this.label27.TabIndex = 0;
             this.label27.Text = "3501";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn3301
+            // 
+            this.btn3301.BackColor = System.Drawing.Color.Silver;
+            this.btn3301.FlatAppearance.BorderSize = 0;
+            this.btn3301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3301.ForeColor = System.Drawing.Color.Black;
+            this.btn3301.Location = new System.Drawing.Point(238, 46);
+            this.btn3301.Name = "btn3301";
+            this.btn3301.Size = new System.Drawing.Size(79, 49);
+            this.btn3301.TabIndex = 13;
+            this.btn3301.Text = "BOŞ";
+            this.btn3301.UseVisualStyleBackColor = false;
             // 
             // label20
             // 
@@ -408,7 +645,20 @@
             this.label20.Size = new System.Drawing.Size(79, 23);
             this.label20.TabIndex = 0;
             this.label20.Text = "3601";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn3201
+            // 
+            this.btn3201.BackColor = System.Drawing.Color.Silver;
+            this.btn3201.FlatAppearance.BorderSize = 0;
+            this.btn3201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3201.ForeColor = System.Drawing.Color.Black;
+            this.btn3201.Location = new System.Drawing.Point(134, 46);
+            this.btn3201.Name = "btn3201";
+            this.btn3201.Size = new System.Drawing.Size(79, 49);
+            this.btn3201.TabIndex = 13;
+            this.btn3201.Text = "BOŞ";
+            this.btn3201.UseVisualStyleBackColor = false;
             // 
             // label18
             // 
@@ -420,7 +670,20 @@
             this.label18.Size = new System.Drawing.Size(79, 23);
             this.label18.TabIndex = 0;
             this.label18.Text = "3401";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn3101
+            // 
+            this.btn3101.BackColor = System.Drawing.Color.Silver;
+            this.btn3101.FlatAppearance.BorderSize = 0;
+            this.btn3101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3101.ForeColor = System.Drawing.Color.Black;
+            this.btn3101.Location = new System.Drawing.Point(33, 46);
+            this.btn3101.Name = "btn3101";
+            this.btn3101.Size = new System.Drawing.Size(79, 49);
+            this.btn3101.TabIndex = 13;
+            this.btn3101.Text = "BOŞ";
+            this.btn3101.UseVisualStyleBackColor = false;
             // 
             // label16
             // 
@@ -432,7 +695,7 @@
             this.label16.Size = new System.Drawing.Size(79, 23);
             this.label16.TabIndex = 0;
             this.label16.Text = "3201";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label29
             // 
@@ -444,15 +707,20 @@
             this.label29.Size = new System.Drawing.Size(79, 23);
             this.label29.TabIndex = 0;
             this.label29.Text = "3101";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox3.Controls.Add(this.pictureBox17);
+            this.groupBox3.Controls.Add(this.pictureBox16);
+            this.groupBox3.Controls.Add(this.pictureBox13);
             this.groupBox3.Controls.Add(this.btn2801);
             this.groupBox3.Controls.Add(this.label62);
             this.groupBox3.Controls.Add(this.label37);
+            this.groupBox3.Controls.Add(this.pictureBox11);
             this.groupBox3.Controls.Add(this.btn2701);
+            this.groupBox3.Controls.Add(this.pictureBox12);
             this.groupBox3.Controls.Add(this.label40);
             this.groupBox3.Controls.Add(this.label41);
             this.groupBox3.Controls.Add(this.btn2601);
@@ -474,6 +742,19 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "2.KAT";
             // 
+            // btn2801
+            // 
+            this.btn2801.BackColor = System.Drawing.Color.Silver;
+            this.btn2801.FlatAppearance.BorderSize = 0;
+            this.btn2801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2801.ForeColor = System.Drawing.Color.Black;
+            this.btn2801.Location = new System.Drawing.Point(750, 46);
+            this.btn2801.Name = "btn2801";
+            this.btn2801.Size = new System.Drawing.Size(79, 49);
+            this.btn2801.TabIndex = 13;
+            this.btn2801.Text = "BOŞ";
+            this.btn2801.UseVisualStyleBackColor = false;
+            // 
             // label62
             // 
             this.label62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -484,7 +765,7 @@
             this.label62.Size = new System.Drawing.Size(79, 23);
             this.label62.TabIndex = 0;
             this.label62.Text = "2801";
-            this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label37
             // 
@@ -496,7 +777,20 @@
             this.label37.Size = new System.Drawing.Size(79, 23);
             this.label37.TabIndex = 0;
             this.label37.Text = "2701";
-            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn2701
+            // 
+            this.btn2701.BackColor = System.Drawing.Color.Silver;
+            this.btn2701.FlatAppearance.BorderSize = 0;
+            this.btn2701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2701.ForeColor = System.Drawing.Color.Black;
+            this.btn2701.Location = new System.Drawing.Point(648, 46);
+            this.btn2701.Name = "btn2701";
+            this.btn2701.Size = new System.Drawing.Size(79, 49);
+            this.btn2701.TabIndex = 13;
+            this.btn2701.Text = "BOŞ";
+            this.btn2701.UseVisualStyleBackColor = false;
             // 
             // label40
             // 
@@ -508,7 +802,7 @@
             this.label40.Size = new System.Drawing.Size(79, 23);
             this.label40.TabIndex = 0;
             this.label40.Text = "2301";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label41
             // 
@@ -520,7 +814,33 @@
             this.label41.Size = new System.Drawing.Size(79, 23);
             this.label41.TabIndex = 0;
             this.label41.Text = "2501";
-            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn2601
+            // 
+            this.btn2601.BackColor = System.Drawing.Color.Silver;
+            this.btn2601.FlatAppearance.BorderSize = 0;
+            this.btn2601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2601.ForeColor = System.Drawing.Color.Black;
+            this.btn2601.Location = new System.Drawing.Point(544, 46);
+            this.btn2601.Name = "btn2601";
+            this.btn2601.Size = new System.Drawing.Size(79, 49);
+            this.btn2601.TabIndex = 13;
+            this.btn2601.Text = "BOŞ";
+            this.btn2601.UseVisualStyleBackColor = false;
+            // 
+            // btn2501
+            // 
+            this.btn2501.BackColor = System.Drawing.Color.Silver;
+            this.btn2501.FlatAppearance.BorderSize = 0;
+            this.btn2501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2501.ForeColor = System.Drawing.Color.Black;
+            this.btn2501.Location = new System.Drawing.Point(441, 46);
+            this.btn2501.Name = "btn2501";
+            this.btn2501.Size = new System.Drawing.Size(79, 49);
+            this.btn2501.TabIndex = 13;
+            this.btn2501.Text = "BOŞ";
+            this.btn2501.UseVisualStyleBackColor = false;
             // 
             // label34
             // 
@@ -532,7 +852,7 @@
             this.label34.Size = new System.Drawing.Size(79, 23);
             this.label34.TabIndex = 0;
             this.label34.Text = "2601";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label32
             // 
@@ -544,7 +864,20 @@
             this.label32.Size = new System.Drawing.Size(79, 23);
             this.label32.TabIndex = 0;
             this.label32.Text = "2401";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn2401
+            // 
+            this.btn2401.BackColor = System.Drawing.Color.Silver;
+            this.btn2401.FlatAppearance.BorderSize = 0;
+            this.btn2401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2401.ForeColor = System.Drawing.Color.Black;
+            this.btn2401.Location = new System.Drawing.Point(339, 46);
+            this.btn2401.Name = "btn2401";
+            this.btn2401.Size = new System.Drawing.Size(79, 49);
+            this.btn2401.TabIndex = 13;
+            this.btn2401.Text = "BOŞ";
+            this.btn2401.UseVisualStyleBackColor = false;
             // 
             // label30
             // 
@@ -556,7 +889,7 @@
             this.label30.Size = new System.Drawing.Size(79, 23);
             this.label30.TabIndex = 0;
             this.label30.Text = "2201";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label43
             // 
@@ -568,11 +901,52 @@
             this.label43.Size = new System.Drawing.Size(79, 23);
             this.label43.TabIndex = 0;
             this.label43.Text = "2101";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn2301
+            // 
+            this.btn2301.BackColor = System.Drawing.Color.Silver;
+            this.btn2301.FlatAppearance.BorderSize = 0;
+            this.btn2301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2301.ForeColor = System.Drawing.Color.Black;
+            this.btn2301.Location = new System.Drawing.Point(238, 46);
+            this.btn2301.Name = "btn2301";
+            this.btn2301.Size = new System.Drawing.Size(79, 49);
+            this.btn2301.TabIndex = 13;
+            this.btn2301.Text = "BOŞ";
+            this.btn2301.UseVisualStyleBackColor = false;
+            // 
+            // btn2101
+            // 
+            this.btn2101.BackColor = System.Drawing.Color.Silver;
+            this.btn2101.FlatAppearance.BorderSize = 0;
+            this.btn2101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2101.ForeColor = System.Drawing.Color.Black;
+            this.btn2101.Location = new System.Drawing.Point(33, 46);
+            this.btn2101.Name = "btn2101";
+            this.btn2101.Size = new System.Drawing.Size(79, 49);
+            this.btn2101.TabIndex = 13;
+            this.btn2101.Text = "BOŞ";
+            this.btn2101.UseVisualStyleBackColor = false;
+            // 
+            // btn2201
+            // 
+            this.btn2201.BackColor = System.Drawing.Color.Silver;
+            this.btn2201.FlatAppearance.BorderSize = 0;
+            this.btn2201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2201.ForeColor = System.Drawing.Color.Black;
+            this.btn2201.Location = new System.Drawing.Point(134, 46);
+            this.btn2201.Name = "btn2201";
+            this.btn2201.Size = new System.Drawing.Size(79, 49);
+            this.btn2201.TabIndex = 13;
+            this.btn2201.Text = "BOŞ";
+            this.btn2201.UseVisualStyleBackColor = false;
             // 
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox4.Controls.Add(this.pictureBox15);
+            this.groupBox4.Controls.Add(this.pictureBox14);
             this.groupBox4.Controls.Add(this.btn1801);
             this.groupBox4.Controls.Add(this.label64);
             this.groupBox4.Controls.Add(this.label45);
@@ -598,6 +972,19 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "1.KAT";
             // 
+            // btn1801
+            // 
+            this.btn1801.BackColor = System.Drawing.Color.Silver;
+            this.btn1801.FlatAppearance.BorderSize = 0;
+            this.btn1801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1801.ForeColor = System.Drawing.Color.Black;
+            this.btn1801.Location = new System.Drawing.Point(750, 46);
+            this.btn1801.Name = "btn1801";
+            this.btn1801.Size = new System.Drawing.Size(79, 49);
+            this.btn1801.TabIndex = 13;
+            this.btn1801.Text = "BOŞ";
+            this.btn1801.UseVisualStyleBackColor = false;
+            // 
             // label64
             // 
             this.label64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -608,7 +995,7 @@
             this.label64.Size = new System.Drawing.Size(79, 23);
             this.label64.TabIndex = 0;
             this.label64.Text = "1801";
-            this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label45
             // 
@@ -620,7 +1007,7 @@
             this.label45.Size = new System.Drawing.Size(79, 23);
             this.label45.TabIndex = 0;
             this.label45.Text = "1701";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label48
             // 
@@ -632,7 +1019,20 @@
             this.label48.Size = new System.Drawing.Size(79, 23);
             this.label48.TabIndex = 0;
             this.label48.Text = "1301";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn1701
+            // 
+            this.btn1701.BackColor = System.Drawing.Color.Silver;
+            this.btn1701.FlatAppearance.BorderSize = 0;
+            this.btn1701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1701.ForeColor = System.Drawing.Color.Black;
+            this.btn1701.Location = new System.Drawing.Point(648, 46);
+            this.btn1701.Name = "btn1701";
+            this.btn1701.Size = new System.Drawing.Size(79, 49);
+            this.btn1701.TabIndex = 13;
+            this.btn1701.Text = "BOŞ";
+            this.btn1701.UseVisualStyleBackColor = false;
             // 
             // label49
             // 
@@ -644,7 +1044,7 @@
             this.label49.Size = new System.Drawing.Size(79, 23);
             this.label49.TabIndex = 0;
             this.label49.Text = "1501";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label51
             // 
@@ -656,7 +1056,7 @@
             this.label51.Size = new System.Drawing.Size(79, 23);
             this.label51.TabIndex = 0;
             this.label51.Text = "1601";
-            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label53
             // 
@@ -668,7 +1068,33 @@
             this.label53.Size = new System.Drawing.Size(79, 23);
             this.label53.TabIndex = 0;
             this.label53.Text = "1401";
-            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn1601
+            // 
+            this.btn1601.BackColor = System.Drawing.Color.Silver;
+            this.btn1601.FlatAppearance.BorderSize = 0;
+            this.btn1601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1601.ForeColor = System.Drawing.Color.Black;
+            this.btn1601.Location = new System.Drawing.Point(544, 46);
+            this.btn1601.Name = "btn1601";
+            this.btn1601.Size = new System.Drawing.Size(79, 49);
+            this.btn1601.TabIndex = 13;
+            this.btn1601.Text = "BOŞ";
+            this.btn1601.UseVisualStyleBackColor = false;
+            // 
+            // btn1501
+            // 
+            this.btn1501.BackColor = System.Drawing.Color.Silver;
+            this.btn1501.FlatAppearance.BorderSize = 0;
+            this.btn1501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1501.ForeColor = System.Drawing.Color.Black;
+            this.btn1501.Location = new System.Drawing.Point(441, 46);
+            this.btn1501.Name = "btn1501";
+            this.btn1501.Size = new System.Drawing.Size(79, 49);
+            this.btn1501.TabIndex = 13;
+            this.btn1501.Text = "BOŞ";
+            this.btn1501.UseVisualStyleBackColor = false;
             // 
             // label55
             // 
@@ -680,7 +1106,7 @@
             this.label55.Size = new System.Drawing.Size(79, 23);
             this.label55.TabIndex = 0;
             this.label55.Text = "1201";
-            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label57
             // 
@@ -692,7 +1118,59 @@
             this.label57.Size = new System.Drawing.Size(79, 23);
             this.label57.TabIndex = 0;
             this.label57.Text = "1101";
-            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn1201
+            // 
+            this.btn1201.BackColor = System.Drawing.Color.Silver;
+            this.btn1201.FlatAppearance.BorderSize = 0;
+            this.btn1201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1201.ForeColor = System.Drawing.Color.Black;
+            this.btn1201.Location = new System.Drawing.Point(134, 46);
+            this.btn1201.Name = "btn1201";
+            this.btn1201.Size = new System.Drawing.Size(79, 49);
+            this.btn1201.TabIndex = 13;
+            this.btn1201.Text = "BOŞ";
+            this.btn1201.UseVisualStyleBackColor = false;
+            // 
+            // btn1401
+            // 
+            this.btn1401.BackColor = System.Drawing.Color.Silver;
+            this.btn1401.FlatAppearance.BorderSize = 0;
+            this.btn1401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1401.ForeColor = System.Drawing.Color.Black;
+            this.btn1401.Location = new System.Drawing.Point(339, 46);
+            this.btn1401.Name = "btn1401";
+            this.btn1401.Size = new System.Drawing.Size(79, 49);
+            this.btn1401.TabIndex = 13;
+            this.btn1401.Text = "BOŞ";
+            this.btn1401.UseVisualStyleBackColor = false;
+            // 
+            // btn1101
+            // 
+            this.btn1101.BackColor = System.Drawing.Color.Silver;
+            this.btn1101.FlatAppearance.BorderSize = 0;
+            this.btn1101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1101.ForeColor = System.Drawing.Color.Black;
+            this.btn1101.Location = new System.Drawing.Point(33, 46);
+            this.btn1101.Name = "btn1101";
+            this.btn1101.Size = new System.Drawing.Size(79, 49);
+            this.btn1101.TabIndex = 13;
+            this.btn1101.Text = "BOŞ";
+            this.btn1101.UseVisualStyleBackColor = false;
+            // 
+            // btn1301
+            // 
+            this.btn1301.BackColor = System.Drawing.Color.Silver;
+            this.btn1301.FlatAppearance.BorderSize = 0;
+            this.btn1301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1301.ForeColor = System.Drawing.Color.Black;
+            this.btn1301.Location = new System.Drawing.Point(238, 46);
+            this.btn1301.Name = "btn1301";
+            this.btn1301.Size = new System.Drawing.Size(79, 49);
+            this.btn1301.TabIndex = 13;
+            this.btn1301.Text = "BOŞ";
+            this.btn1301.UseVisualStyleBackColor = false;
             // 
             // label66
             // 
@@ -1308,427 +1786,187 @@
             this.btnOK.Text = "İşlemi Tamamla ";
             this.btnOK.UseVisualStyleBackColor = false;
             // 
-            // btn4101
+            // pictureBox2
             // 
-            this.btn4101.BackColor = System.Drawing.Color.Silver;
-            this.btn4101.FlatAppearance.BorderSize = 0;
-            this.btn4101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4101.ForeColor = System.Drawing.Color.Black;
-            this.btn4101.Location = new System.Drawing.Point(33, 46);
-            this.btn4101.Name = "btn4101";
-            this.btn4101.Size = new System.Drawing.Size(79, 49);
-            this.btn4101.TabIndex = 13;
-            this.btn4101.Text = "BOŞ";
-            this.btn4101.UseVisualStyleBackColor = false;
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox2.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox2.Location = new System.Drawing.Point(294, 23);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
             // 
-            // btn4201
+            // pictureBox3
             // 
-            this.btn4201.BackColor = System.Drawing.Color.Silver;
-            this.btn4201.FlatAppearance.BorderSize = 0;
-            this.btn4201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4201.ForeColor = System.Drawing.Color.Black;
-            this.btn4201.Location = new System.Drawing.Point(134, 46);
-            this.btn4201.Name = "btn4201";
-            this.btn4201.Size = new System.Drawing.Size(79, 49);
-            this.btn4201.TabIndex = 13;
-            this.btn4201.Text = "BOŞ";
-            this.btn4201.UseVisualStyleBackColor = false;
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox3.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox3.Location = new System.Drawing.Point(600, 23);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 17;
+            this.pictureBox3.TabStop = false;
             // 
-            // btn4301
+            // pictureBox4
             // 
-            this.btn4301.BackColor = System.Drawing.Color.Silver;
-            this.btn4301.FlatAppearance.BorderSize = 0;
-            this.btn4301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4301.ForeColor = System.Drawing.Color.Black;
-            this.btn4301.Location = new System.Drawing.Point(238, 46);
-            this.btn4301.Name = "btn4301";
-            this.btn4301.Size = new System.Drawing.Size(79, 49);
-            this.btn4301.TabIndex = 13;
-            this.btn4301.Text = "BOŞ";
-            this.btn4301.UseVisualStyleBackColor = false;
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox4.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox4.Location = new System.Drawing.Point(497, 23);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 17;
+            this.pictureBox4.TabStop = false;
             // 
-            // btn4401
+            // pictureBox5
             // 
-            this.btn4401.BackColor = System.Drawing.Color.Silver;
-            this.btn4401.FlatAppearance.BorderSize = 0;
-            this.btn4401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4401.ForeColor = System.Drawing.Color.Black;
-            this.btn4401.Location = new System.Drawing.Point(339, 46);
-            this.btn4401.Name = "btn4401";
-            this.btn4401.Size = new System.Drawing.Size(79, 49);
-            this.btn4401.TabIndex = 13;
-            this.btn4401.Text = "BOŞ";
-            this.btn4401.UseVisualStyleBackColor = false;
+            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox5.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox5.Location = new System.Drawing.Point(89, 23);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 15;
+            this.pictureBox5.TabStop = false;
             // 
-            // btn4501
+            // pictureBox6
             // 
-            this.btn4501.BackColor = System.Drawing.Color.Silver;
-            this.btn4501.FlatAppearance.BorderSize = 0;
-            this.btn4501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4501.ForeColor = System.Drawing.Color.Black;
-            this.btn4501.Location = new System.Drawing.Point(441, 46);
-            this.btn4501.Name = "btn4501";
-            this.btn4501.Size = new System.Drawing.Size(79, 49);
-            this.btn4501.TabIndex = 13;
-            this.btn4501.Text = "BOŞ";
-            this.btn4501.UseVisualStyleBackColor = false;
+            this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox6.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox6.Location = new System.Drawing.Point(395, 22);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 16;
+            this.pictureBox6.TabStop = false;
             // 
-            // btn4601
+            // pictureBox7
             // 
-            this.btn4601.BackColor = System.Drawing.Color.Silver;
-            this.btn4601.FlatAppearance.BorderSize = 0;
-            this.btn4601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4601.ForeColor = System.Drawing.Color.Black;
-            this.btn4601.Location = new System.Drawing.Point(544, 46);
-            this.btn4601.Name = "btn4601";
-            this.btn4601.Size = new System.Drawing.Size(79, 49);
-            this.btn4601.TabIndex = 13;
-            this.btn4601.Text = "BOŞ";
-            this.btn4601.UseVisualStyleBackColor = false;
+            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox7.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox7.Location = new System.Drawing.Point(395, 22);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 16;
+            this.pictureBox7.TabStop = false;
             // 
-            // btn4701
+            // pictureBox8
             // 
-            this.btn4701.BackColor = System.Drawing.Color.Silver;
-            this.btn4701.FlatAppearance.BorderSize = 0;
-            this.btn4701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4701.ForeColor = System.Drawing.Color.Black;
-            this.btn4701.Location = new System.Drawing.Point(648, 46);
-            this.btn4701.Name = "btn4701";
-            this.btn4701.Size = new System.Drawing.Size(79, 49);
-            this.btn4701.TabIndex = 13;
-            this.btn4701.Text = "BOŞ";
-            this.btn4701.UseVisualStyleBackColor = false;
+            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox8.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox8.Location = new System.Drawing.Point(497, 23);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 17;
+            this.pictureBox8.TabStop = false;
             // 
-            // btn4801
+            // pictureBox9
             // 
-            this.btn4801.BackColor = System.Drawing.Color.Silver;
-            this.btn4801.FlatAppearance.BorderSize = 0;
-            this.btn4801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4801.ForeColor = System.Drawing.Color.Black;
-            this.btn4801.Location = new System.Drawing.Point(750, 46);
-            this.btn4801.Name = "btn4801";
-            this.btn4801.Size = new System.Drawing.Size(79, 49);
-            this.btn4801.TabIndex = 13;
-            this.btn4801.Text = "BOŞ";
-            this.btn4801.UseVisualStyleBackColor = false;
+            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox9.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox9.Location = new System.Drawing.Point(600, 22);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 17;
+            this.pictureBox9.TabStop = false;
             // 
-            // btn3101
+            // pictureBox10
             // 
-            this.btn3101.BackColor = System.Drawing.Color.Silver;
-            this.btn3101.FlatAppearance.BorderSize = 0;
-            this.btn3101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3101.ForeColor = System.Drawing.Color.Black;
-            this.btn3101.Location = new System.Drawing.Point(33, 46);
-            this.btn3101.Name = "btn3101";
-            this.btn3101.Size = new System.Drawing.Size(79, 49);
-            this.btn3101.TabIndex = 13;
-            this.btn3101.Text = "BOŞ";
-            this.btn3101.UseVisualStyleBackColor = false;
+            this.pictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox10.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox10.Location = new System.Drawing.Point(294, 23);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 16;
+            this.pictureBox10.TabStop = false;
             // 
-            // btn3201
+            // pictureBox11
             // 
-            this.btn3201.BackColor = System.Drawing.Color.Silver;
-            this.btn3201.FlatAppearance.BorderSize = 0;
-            this.btn3201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3201.ForeColor = System.Drawing.Color.Black;
-            this.btn3201.Location = new System.Drawing.Point(134, 46);
-            this.btn3201.Name = "btn3201";
-            this.btn3201.Size = new System.Drawing.Size(79, 49);
-            this.btn3201.TabIndex = 13;
-            this.btn3201.Text = "BOŞ";
-            this.btn3201.UseVisualStyleBackColor = false;
+            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox11.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox11.Location = new System.Drawing.Point(294, 23);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 16;
+            this.pictureBox11.TabStop = false;
             // 
-            // btn3301
+            // pictureBox12
             // 
-            this.btn3301.BackColor = System.Drawing.Color.Silver;
-            this.btn3301.FlatAppearance.BorderSize = 0;
-            this.btn3301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3301.ForeColor = System.Drawing.Color.Black;
-            this.btn3301.Location = new System.Drawing.Point(238, 46);
-            this.btn3301.Name = "btn3301";
-            this.btn3301.Size = new System.Drawing.Size(79, 49);
-            this.btn3301.TabIndex = 13;
-            this.btn3301.Text = "BOŞ";
-            this.btn3301.UseVisualStyleBackColor = false;
+            this.pictureBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox12.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox12.Location = new System.Drawing.Point(395, 23);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 16;
+            this.pictureBox12.TabStop = false;
             // 
-            // btn3401
+            // pictureBox13
             // 
-            this.btn3401.BackColor = System.Drawing.Color.Silver;
-            this.btn3401.FlatAppearance.BorderSize = 0;
-            this.btn3401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3401.ForeColor = System.Drawing.Color.Black;
-            this.btn3401.Location = new System.Drawing.Point(339, 46);
-            this.btn3401.Name = "btn3401";
-            this.btn3401.Size = new System.Drawing.Size(79, 49);
-            this.btn3401.TabIndex = 13;
-            this.btn3401.Text = "BOŞ";
-            this.btn3401.UseVisualStyleBackColor = false;
+            this.pictureBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox13.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox13.Location = new System.Drawing.Point(497, 22);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 17;
+            this.pictureBox13.TabStop = false;
             // 
-            // btn3501
+            // pictureBox14
             // 
-            this.btn3501.BackColor = System.Drawing.Color.Silver;
-            this.btn3501.FlatAppearance.BorderSize = 0;
-            this.btn3501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3501.ForeColor = System.Drawing.Color.Black;
-            this.btn3501.Location = new System.Drawing.Point(441, 46);
-            this.btn3501.Name = "btn3501";
-            this.btn3501.Size = new System.Drawing.Size(79, 49);
-            this.btn3501.TabIndex = 13;
-            this.btn3501.Text = "BOŞ";
-            this.btn3501.UseVisualStyleBackColor = false;
+            this.pictureBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox14.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox14.Location = new System.Drawing.Point(497, 23);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 17;
+            this.pictureBox14.TabStop = false;
             // 
-            // btn3601
+            // pictureBox15
             // 
-            this.btn3601.BackColor = System.Drawing.Color.Silver;
-            this.btn3601.FlatAppearance.BorderSize = 0;
-            this.btn3601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3601.ForeColor = System.Drawing.Color.Black;
-            this.btn3601.Location = new System.Drawing.Point(544, 46);
-            this.btn3601.Name = "btn3601";
-            this.btn3601.Size = new System.Drawing.Size(79, 49);
-            this.btn3601.TabIndex = 13;
-            this.btn3601.Text = "BOŞ";
-            this.btn3601.UseVisualStyleBackColor = false;
+            this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox15.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox15.Location = new System.Drawing.Point(600, 23);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox15.TabIndex = 17;
+            this.pictureBox15.TabStop = false;
             // 
-            // btn3701
+            // pictureBox16
             // 
-            this.btn3701.BackColor = System.Drawing.Color.Silver;
-            this.btn3701.FlatAppearance.BorderSize = 0;
-            this.btn3701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3701.ForeColor = System.Drawing.Color.Black;
-            this.btn3701.Location = new System.Drawing.Point(648, 46);
-            this.btn3701.Name = "btn3701";
-            this.btn3701.Size = new System.Drawing.Size(79, 49);
-            this.btn3701.TabIndex = 13;
-            this.btn3701.Text = "BOŞ";
-            this.btn3701.UseVisualStyleBackColor = false;
+            this.pictureBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox16.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox16.Location = new System.Drawing.Point(600, 23);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox16.TabIndex = 17;
+            this.pictureBox16.TabStop = false;
             // 
-            // btn3801
+            // pictureBox17
             // 
-            this.btn3801.BackColor = System.Drawing.Color.Silver;
-            this.btn3801.FlatAppearance.BorderSize = 0;
-            this.btn3801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3801.ForeColor = System.Drawing.Color.Black;
-            this.btn3801.Location = new System.Drawing.Point(750, 46);
-            this.btn3801.Name = "btn3801";
-            this.btn3801.Size = new System.Drawing.Size(79, 49);
-            this.btn3801.TabIndex = 13;
-            this.btn3801.Text = "BOŞ";
-            this.btn3801.UseVisualStyleBackColor = false;
-            // 
-            // btn2101
-            // 
-            this.btn2101.BackColor = System.Drawing.Color.Silver;
-            this.btn2101.FlatAppearance.BorderSize = 0;
-            this.btn2101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2101.ForeColor = System.Drawing.Color.Black;
-            this.btn2101.Location = new System.Drawing.Point(33, 46);
-            this.btn2101.Name = "btn2101";
-            this.btn2101.Size = new System.Drawing.Size(79, 49);
-            this.btn2101.TabIndex = 13;
-            this.btn2101.Text = "BOŞ";
-            this.btn2101.UseVisualStyleBackColor = false;
-            // 
-            // btn2201
-            // 
-            this.btn2201.BackColor = System.Drawing.Color.Silver;
-            this.btn2201.FlatAppearance.BorderSize = 0;
-            this.btn2201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2201.ForeColor = System.Drawing.Color.Black;
-            this.btn2201.Location = new System.Drawing.Point(134, 46);
-            this.btn2201.Name = "btn2201";
-            this.btn2201.Size = new System.Drawing.Size(79, 49);
-            this.btn2201.TabIndex = 13;
-            this.btn2201.Text = "BOŞ";
-            this.btn2201.UseVisualStyleBackColor = false;
-            // 
-            // btn2301
-            // 
-            this.btn2301.BackColor = System.Drawing.Color.Silver;
-            this.btn2301.FlatAppearance.BorderSize = 0;
-            this.btn2301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2301.ForeColor = System.Drawing.Color.Black;
-            this.btn2301.Location = new System.Drawing.Point(238, 46);
-            this.btn2301.Name = "btn2301";
-            this.btn2301.Size = new System.Drawing.Size(79, 49);
-            this.btn2301.TabIndex = 13;
-            this.btn2301.Text = "BOŞ";
-            this.btn2301.UseVisualStyleBackColor = false;
-            // 
-            // btn2401
-            // 
-            this.btn2401.BackColor = System.Drawing.Color.Silver;
-            this.btn2401.FlatAppearance.BorderSize = 0;
-            this.btn2401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2401.ForeColor = System.Drawing.Color.Black;
-            this.btn2401.Location = new System.Drawing.Point(339, 46);
-            this.btn2401.Name = "btn2401";
-            this.btn2401.Size = new System.Drawing.Size(79, 49);
-            this.btn2401.TabIndex = 13;
-            this.btn2401.Text = "BOŞ";
-            this.btn2401.UseVisualStyleBackColor = false;
-            // 
-            // btn2501
-            // 
-            this.btn2501.BackColor = System.Drawing.Color.Silver;
-            this.btn2501.FlatAppearance.BorderSize = 0;
-            this.btn2501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2501.ForeColor = System.Drawing.Color.Black;
-            this.btn2501.Location = new System.Drawing.Point(441, 46);
-            this.btn2501.Name = "btn2501";
-            this.btn2501.Size = new System.Drawing.Size(79, 49);
-            this.btn2501.TabIndex = 13;
-            this.btn2501.Text = "BOŞ";
-            this.btn2501.UseVisualStyleBackColor = false;
-            // 
-            // btn2601
-            // 
-            this.btn2601.BackColor = System.Drawing.Color.Silver;
-            this.btn2601.FlatAppearance.BorderSize = 0;
-            this.btn2601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2601.ForeColor = System.Drawing.Color.Black;
-            this.btn2601.Location = new System.Drawing.Point(544, 46);
-            this.btn2601.Name = "btn2601";
-            this.btn2601.Size = new System.Drawing.Size(79, 49);
-            this.btn2601.TabIndex = 13;
-            this.btn2601.Text = "BOŞ";
-            this.btn2601.UseVisualStyleBackColor = false;
-            // 
-            // btn2701
-            // 
-            this.btn2701.BackColor = System.Drawing.Color.Silver;
-            this.btn2701.FlatAppearance.BorderSize = 0;
-            this.btn2701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2701.ForeColor = System.Drawing.Color.Black;
-            this.btn2701.Location = new System.Drawing.Point(648, 46);
-            this.btn2701.Name = "btn2701";
-            this.btn2701.Size = new System.Drawing.Size(79, 49);
-            this.btn2701.TabIndex = 13;
-            this.btn2701.Text = "BOŞ";
-            this.btn2701.UseVisualStyleBackColor = false;
-            // 
-            // btn2801
-            // 
-            this.btn2801.BackColor = System.Drawing.Color.Silver;
-            this.btn2801.FlatAppearance.BorderSize = 0;
-            this.btn2801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2801.ForeColor = System.Drawing.Color.Black;
-            this.btn2801.Location = new System.Drawing.Point(750, 46);
-            this.btn2801.Name = "btn2801";
-            this.btn2801.Size = new System.Drawing.Size(79, 49);
-            this.btn2801.TabIndex = 13;
-            this.btn2801.Text = "BOŞ";
-            this.btn2801.UseVisualStyleBackColor = false;
-            // 
-            // btn1201
-            // 
-            this.btn1201.BackColor = System.Drawing.Color.Silver;
-            this.btn1201.FlatAppearance.BorderSize = 0;
-            this.btn1201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1201.ForeColor = System.Drawing.Color.Black;
-            this.btn1201.Location = new System.Drawing.Point(134, 46);
-            this.btn1201.Name = "btn1201";
-            this.btn1201.Size = new System.Drawing.Size(79, 49);
-            this.btn1201.TabIndex = 13;
-            this.btn1201.Text = "BOŞ";
-            this.btn1201.UseVisualStyleBackColor = false;
-            // 
-            // btn1101
-            // 
-            this.btn1101.BackColor = System.Drawing.Color.Silver;
-            this.btn1101.FlatAppearance.BorderSize = 0;
-            this.btn1101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1101.ForeColor = System.Drawing.Color.Black;
-            this.btn1101.Location = new System.Drawing.Point(33, 46);
-            this.btn1101.Name = "btn1101";
-            this.btn1101.Size = new System.Drawing.Size(79, 49);
-            this.btn1101.TabIndex = 13;
-            this.btn1101.Text = "BOŞ";
-            this.btn1101.UseVisualStyleBackColor = false;
-            // 
-            // btn1301
-            // 
-            this.btn1301.BackColor = System.Drawing.Color.Silver;
-            this.btn1301.FlatAppearance.BorderSize = 0;
-            this.btn1301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1301.ForeColor = System.Drawing.Color.Black;
-            this.btn1301.Location = new System.Drawing.Point(238, 46);
-            this.btn1301.Name = "btn1301";
-            this.btn1301.Size = new System.Drawing.Size(79, 49);
-            this.btn1301.TabIndex = 13;
-            this.btn1301.Text = "BOŞ";
-            this.btn1301.UseVisualStyleBackColor = false;
-            // 
-            // btn1401
-            // 
-            this.btn1401.BackColor = System.Drawing.Color.Silver;
-            this.btn1401.FlatAppearance.BorderSize = 0;
-            this.btn1401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1401.ForeColor = System.Drawing.Color.Black;
-            this.btn1401.Location = new System.Drawing.Point(339, 46);
-            this.btn1401.Name = "btn1401";
-            this.btn1401.Size = new System.Drawing.Size(79, 49);
-            this.btn1401.TabIndex = 13;
-            this.btn1401.Text = "BOŞ";
-            this.btn1401.UseVisualStyleBackColor = false;
-            // 
-            // btn1501
-            // 
-            this.btn1501.BackColor = System.Drawing.Color.Silver;
-            this.btn1501.FlatAppearance.BorderSize = 0;
-            this.btn1501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1501.ForeColor = System.Drawing.Color.Black;
-            this.btn1501.Location = new System.Drawing.Point(441, 46);
-            this.btn1501.Name = "btn1501";
-            this.btn1501.Size = new System.Drawing.Size(79, 49);
-            this.btn1501.TabIndex = 13;
-            this.btn1501.Text = "BOŞ";
-            this.btn1501.UseVisualStyleBackColor = false;
-            // 
-            // btn1601
-            // 
-            this.btn1601.BackColor = System.Drawing.Color.Silver;
-            this.btn1601.FlatAppearance.BorderSize = 0;
-            this.btn1601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1601.ForeColor = System.Drawing.Color.Black;
-            this.btn1601.Location = new System.Drawing.Point(544, 46);
-            this.btn1601.Name = "btn1601";
-            this.btn1601.Size = new System.Drawing.Size(79, 49);
-            this.btn1601.TabIndex = 13;
-            this.btn1601.Text = "BOŞ";
-            this.btn1601.UseVisualStyleBackColor = false;
-            // 
-            // btn1701
-            // 
-            this.btn1701.BackColor = System.Drawing.Color.Silver;
-            this.btn1701.FlatAppearance.BorderSize = 0;
-            this.btn1701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1701.ForeColor = System.Drawing.Color.Black;
-            this.btn1701.Location = new System.Drawing.Point(648, 46);
-            this.btn1701.Name = "btn1701";
-            this.btn1701.Size = new System.Drawing.Size(79, 49);
-            this.btn1701.TabIndex = 13;
-            this.btn1701.Text = "BOŞ";
-            this.btn1701.UseVisualStyleBackColor = false;
-            // 
-            // btn1801
-            // 
-            this.btn1801.BackColor = System.Drawing.Color.Silver;
-            this.btn1801.FlatAppearance.BorderSize = 0;
-            this.btn1801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1801.ForeColor = System.Drawing.Color.Black;
-            this.btn1801.Location = new System.Drawing.Point(750, 46);
-            this.btn1801.Name = "btn1801";
-            this.btn1801.Size = new System.Drawing.Size(79, 49);
-            this.btn1801.TabIndex = 13;
-            this.btn1801.Text = "BOŞ";
-            this.btn1801.UseVisualStyleBackColor = false;
+            this.pictureBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox17.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox17.Location = new System.Drawing.Point(704, 23);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 17;
+            this.pictureBox17.TabStop = false;
             // 
             // FormResepsiyon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1264, 761);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox4);
@@ -1745,6 +1983,7 @@
             this.Text = "Resepsiyon";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
@@ -1761,6 +2000,22 @@
             this.panel2.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1892,5 +2147,22 @@
         private System.Windows.Forms.Button btn1401;
         private System.Windows.Forms.Button btn1101;
         private System.Windows.Forms.Button btn1301;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox14;
     }
 }
