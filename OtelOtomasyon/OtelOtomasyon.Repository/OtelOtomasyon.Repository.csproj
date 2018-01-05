@@ -32,11 +32,9 @@
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -49,15 +47,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IFiyatRepository.cs" />
+    <Compile Include="Abstract\IKatRepository.cs" />
+    <Compile Include="Abstract\ILoginRepository.cs" />
+    <Compile Include="Abstract\IMusteriRepository.cs" />
+    <Compile Include="Abstract\IOdaRepository.cs" />
+    <Compile Include="Abstract\IOdaTurRepository.cs" />
+    <Compile Include="Abstract\IOzellikRepository.cs" />
+    <Compile Include="Abstract\IPersonelRepository.cs" />
+    <Compile Include="Abstract\IRezervasyonRepository.cs" />
+    <Compile Include="Abstract\IRoleRepository.cs" />
+    <Compile Include="Abstract\ISatisRepository.cs" />
+    <Compile Include="Concrete\FiyatRepository.cs" />
+    <Compile Include="Concrete\KatRepository.cs" />
+    <Compile Include="Concrete\LoginRepository.cs" />
+    <Compile Include="Concrete\MusteriRepository.cs" />
+    <Compile Include="Concrete\OdaRepository.cs" />
+    <Compile Include="Concrete\OdaTurRepository.cs" />
+    <Compile Include="Concrete\OzellikRepository.cs" />
+    <Compile Include="Concrete\PersonelRepository.cs" />
+    <Compile Include="Concrete\RezervasyonRepository.cs" />
+    <Compile Include="Concrete\RoleRepository.cs" />
+    <Compile Include="Concrete\SatisRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UOW\Abstract\IUnitOfWork.cs" />
+    <Compile Include="UOW\Concrete\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OtelOtomasyon.Core\OtelOtomasyon.Core.csproj">
+      <Project>{9e5e7cda-f6dc-4380-9819-07bfe0a3b1e1}</Project>
+      <Name>OtelOtomasyon.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OtelOtomasyon.DAL\OtelOtomasyon.DAL.csproj">
+      <Project>{840ce27e-8ae0-4806-afd0-60bc0325a8bf}</Project>
+      <Name>OtelOtomasyon.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
