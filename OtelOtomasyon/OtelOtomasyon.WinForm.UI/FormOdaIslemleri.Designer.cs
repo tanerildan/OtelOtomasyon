@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FormOdaIslemleri
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(578, 294);
+            this.Name = "FormOdaIslemleri";
             this.Text = "FormOdaIslemleri";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
