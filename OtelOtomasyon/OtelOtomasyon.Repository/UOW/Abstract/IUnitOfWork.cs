@@ -1,4 +1,5 @@
 ﻿using OtelOtomasyon.Core.Abstract;
+using OtelOtomasyon.DAL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace OtelOtomasyon.Repository.UOW.Abstract
     {
         int Commit();
 
-        IRepository<T> GetRepo<T>() where T : class, new();
+        IRepository<T> GetRepo<T>() where T : BaseEntity, new();
 
         void Dispose(bool disposing);
     }

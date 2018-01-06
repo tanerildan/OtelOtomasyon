@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OtelOtomasyon.DAL.Entities
 {
-    public class Ozellik
+    public class Ozellik:BaseEntity
     {
         public int Id { get; set; }
         public string OzellikAd { get; set; }

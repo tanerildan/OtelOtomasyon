@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OtelOtomasyon.DAL.Entities
 {
-    public class Login
+    public class Login:BaseEntity
     {
         public int Id { get; set; }
         public string  UserName { get; set; }

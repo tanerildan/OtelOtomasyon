@@ -28,9 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.dtpTarih = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.pictureBox33 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox34 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn4801 = new System.Windows.Forms.Button();
             this.btn4701 = new System.Windows.Forms.Button();
@@ -50,9 +61,19 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox35 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.btn3801 = new System.Windows.Forms.Button();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label60 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.btn3701 = new System.Windows.Forms.Button();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.label23 = new System.Windows.Forms.Label();
             this.btn3601 = new System.Windows.Forms.Button();
             this.btn3501 = new System.Windows.Forms.Button();
@@ -67,10 +88,20 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.pictureBox40 = new System.Windows.Forms.PictureBox();
+            this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.btn2801 = new System.Windows.Forms.Button();
             this.label62 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.btn2701 = new System.Windows.Forms.Button();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.btn2601 = new System.Windows.Forms.Button();
@@ -84,13 +115,22 @@
             this.btn2101 = new System.Windows.Forms.Button();
             this.btn2201 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.pictureBox41 = new System.Windows.Forms.PictureBox();
+            this.pictureBox38 = new System.Windows.Forms.PictureBox();
+            this.pictureBox37 = new System.Windows.Forms.PictureBox();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.btn1801 = new System.Windows.Forms.Button();
             this.label64 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.btn1701 = new System.Windows.Forms.Button();
             this.label49 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.label53 = new System.Windows.Forms.Label();
             this.btn1601 = new System.Windows.Forms.Button();
             this.btn1501 = new System.Windows.Forms.Button();
@@ -100,6 +140,7 @@
             this.btn1401 = new System.Windows.Forms.Button();
             this.btn1101 = new System.Windows.Forms.Button();
             this.btn1301 = new System.Windows.Forms.Button();
+            this.label48 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
             this.txtAd = new System.Windows.Forms.TextBox();
             this.cbOdaTur = new System.Windows.Forms.ComboBox();
@@ -154,28 +195,53 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lbSonHareketler = new System.Windows.Forms.ListBox();
             this.btnOK = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbKimlikDogrula)).BeginInit();
             this.groupBox7.SuspendLayout();
@@ -183,22 +249,6 @@
             this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -221,16 +271,21 @@
             this.dtpTarih.Location = new System.Drawing.Point(0, 0);
             this.dtpTarih.Name = "dtpTarih";
             this.dtpTarih.Size = new System.Drawing.Size(1264, 23);
-            this.dtpTarih.TabIndex = 2;
+            this.dtpTarih.TabIndex = 0;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.pictureBox39);
+            this.groupBox1.Controls.Add(this.pictureBox33);
             this.groupBox1.Controls.Add(this.pictureBox4);
+            this.groupBox1.Controls.Add(this.pictureBox34);
             this.groupBox1.Controls.Add(this.pictureBox3);
             this.groupBox1.Controls.Add(this.pictureBox6);
+            this.groupBox1.Controls.Add(this.pictureBox19);
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Controls.Add(this.pictureBox5);
+            this.groupBox1.Controls.Add(this.pictureBox18);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.btn4801);
             this.groupBox1.Controls.Add(this.btn4701);
@@ -259,6 +314,116 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "4.KAT";
             // 
+            // pictureBox39
+            // 
+            this.pictureBox39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox39.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox39.Location = new System.Drawing.Point(806, 23);
+            this.pictureBox39.Name = "pictureBox39";
+            this.pictureBox39.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox39.TabIndex = 19;
+            this.pictureBox39.TabStop = false;
+            // 
+            // pictureBox33
+            // 
+            this.pictureBox33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox33.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox33.Location = new System.Drawing.Point(684, 23);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox33.TabIndex = 18;
+            this.pictureBox33.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox4.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox4.Location = new System.Drawing.Point(497, 23);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 17;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox34
+            // 
+            this.pictureBox34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox34.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox34.Location = new System.Drawing.Point(704, 23);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox34.TabIndex = 19;
+            this.pictureBox34.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox3.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox3.Location = new System.Drawing.Point(600, 23);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 17;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox6.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox6.Location = new System.Drawing.Point(395, 23);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 16;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox19.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox19.Location = new System.Drawing.Point(272, 23);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 16;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox2.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox2.Location = new System.Drawing.Point(294, 23);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox5.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox5.Location = new System.Drawing.Point(89, 23);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 15;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox18.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox18.Location = new System.Drawing.Point(170, 23);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 15;
+            this.pictureBox18.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -273,6 +438,7 @@
             // btn4801
             // 
             this.btn4801.BackColor = System.Drawing.Color.Silver;
+            this.btn4801.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4801.FlatAppearance.BorderSize = 0;
             this.btn4801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4801.ForeColor = System.Drawing.Color.Black;
@@ -286,6 +452,7 @@
             // btn4701
             // 
             this.btn4701.BackColor = System.Drawing.Color.Silver;
+            this.btn4701.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4701.FlatAppearance.BorderSize = 0;
             this.btn4701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4701.ForeColor = System.Drawing.Color.Black;
@@ -299,6 +466,7 @@
             // btn4601
             // 
             this.btn4601.BackColor = System.Drawing.Color.Silver;
+            this.btn4601.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4601.FlatAppearance.BorderSize = 0;
             this.btn4601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4601.ForeColor = System.Drawing.Color.Black;
@@ -312,6 +480,7 @@
             // btn4501
             // 
             this.btn4501.BackColor = System.Drawing.Color.Silver;
+            this.btn4501.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4501.FlatAppearance.BorderSize = 0;
             this.btn4501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4501.ForeColor = System.Drawing.Color.Black;
@@ -325,6 +494,7 @@
             // btn4401
             // 
             this.btn4401.BackColor = System.Drawing.Color.Silver;
+            this.btn4401.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4401.FlatAppearance.BorderSize = 0;
             this.btn4401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4401.ForeColor = System.Drawing.Color.Black;
@@ -338,6 +508,7 @@
             // btn4301
             // 
             this.btn4301.BackColor = System.Drawing.Color.Silver;
+            this.btn4301.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4301.FlatAppearance.BorderSize = 0;
             this.btn4301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4301.ForeColor = System.Drawing.Color.Black;
@@ -351,6 +522,7 @@
             // btn4201
             // 
             this.btn4201.BackColor = System.Drawing.Color.Silver;
+            this.btn4201.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4201.FlatAppearance.BorderSize = 0;
             this.btn4201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4201.ForeColor = System.Drawing.Color.Black;
@@ -364,6 +536,7 @@
             // btn4101
             // 
             this.btn4101.BackColor = System.Drawing.Color.Silver;
+            this.btn4101.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4101.FlatAppearance.BorderSize = 0;
             this.btn4101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4101.ForeColor = System.Drawing.Color.Black;
@@ -480,13 +653,19 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.pictureBox35);
             this.groupBox2.Controls.Add(this.pictureBox8);
+            this.groupBox2.Controls.Add(this.pictureBox17);
             this.groupBox2.Controls.Add(this.pictureBox9);
             this.groupBox2.Controls.Add(this.btn3801);
             this.groupBox2.Controls.Add(this.pictureBox10);
             this.groupBox2.Controls.Add(this.label60);
             this.groupBox2.Controls.Add(this.pictureBox7);
+            this.groupBox2.Controls.Add(this.pictureBox28);
+            this.groupBox2.Controls.Add(this.pictureBox21);
             this.groupBox2.Controls.Add(this.btn3701);
+            this.groupBox2.Controls.Add(this.pictureBox27);
+            this.groupBox2.Controls.Add(this.pictureBox20);
             this.groupBox2.Controls.Add(this.label23);
             this.groupBox2.Controls.Add(this.btn3601);
             this.groupBox2.Controls.Add(this.btn3501);
@@ -509,9 +688,54 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3.KAT";
             // 
+            // pictureBox35
+            // 
+            this.pictureBox35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox35.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox35.Location = new System.Drawing.Point(89, 23);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox35.TabIndex = 18;
+            this.pictureBox35.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox8.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox8.Location = new System.Drawing.Point(497, 23);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 17;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox17.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox17.Location = new System.Drawing.Point(806, 23);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 17;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox9.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox9.Location = new System.Drawing.Point(600, 23);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 17;
+            this.pictureBox9.TabStop = false;
+            // 
             // btn3801
             // 
             this.btn3801.BackColor = System.Drawing.Color.Silver;
+            this.btn3801.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3801.FlatAppearance.BorderSize = 0;
             this.btn3801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3801.ForeColor = System.Drawing.Color.Black;
@@ -521,6 +745,17 @@
             this.btn3801.TabIndex = 13;
             this.btn3801.Text = "BOŞ";
             this.btn3801.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox10.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox10.Location = new System.Drawing.Point(294, 23);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 16;
+            this.pictureBox10.TabStop = false;
             // 
             // label60
             // 
@@ -534,9 +769,43 @@
             this.label60.Text = "3801";
             this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox7.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox7.Location = new System.Drawing.Point(395, 23);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 16;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox28.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox28.Location = new System.Drawing.Point(684, 23);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox28.TabIndex = 15;
+            this.pictureBox28.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox21.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox21.Location = new System.Drawing.Point(170, 23);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox21.TabIndex = 15;
+            this.pictureBox21.TabStop = false;
+            // 
             // btn3701
             // 
             this.btn3701.BackColor = System.Drawing.Color.Silver;
+            this.btn3701.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3701.FlatAppearance.BorderSize = 0;
             this.btn3701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3701.ForeColor = System.Drawing.Color.Black;
@@ -546,6 +815,28 @@
             this.btn3701.TabIndex = 13;
             this.btn3701.Text = "BOŞ";
             this.btn3701.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox27.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox27.Location = new System.Drawing.Point(704, 23);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox27.TabIndex = 15;
+            this.pictureBox27.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox20.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox20.Location = new System.Drawing.Point(190, 23);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox20.TabIndex = 15;
+            this.pictureBox20.TabStop = false;
             // 
             // label23
             // 
@@ -562,6 +853,7 @@
             // btn3601
             // 
             this.btn3601.BackColor = System.Drawing.Color.Silver;
+            this.btn3601.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3601.FlatAppearance.BorderSize = 0;
             this.btn3601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3601.ForeColor = System.Drawing.Color.Black;
@@ -575,6 +867,7 @@
             // btn3501
             // 
             this.btn3501.BackColor = System.Drawing.Color.Silver;
+            this.btn3501.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3501.FlatAppearance.BorderSize = 0;
             this.btn3501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3501.ForeColor = System.Drawing.Color.Black;
@@ -600,6 +893,7 @@
             // btn3401
             // 
             this.btn3401.BackColor = System.Drawing.Color.Silver;
+            this.btn3401.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3401.FlatAppearance.BorderSize = 0;
             this.btn3401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3401.ForeColor = System.Drawing.Color.Black;
@@ -625,6 +919,7 @@
             // btn3301
             // 
             this.btn3301.BackColor = System.Drawing.Color.Silver;
+            this.btn3301.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3301.FlatAppearance.BorderSize = 0;
             this.btn3301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3301.ForeColor = System.Drawing.Color.Black;
@@ -650,6 +945,7 @@
             // btn3201
             // 
             this.btn3201.BackColor = System.Drawing.Color.Silver;
+            this.btn3201.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3201.FlatAppearance.BorderSize = 0;
             this.btn3201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3201.ForeColor = System.Drawing.Color.Black;
@@ -675,6 +971,7 @@
             // btn3101
             // 
             this.btn3101.BackColor = System.Drawing.Color.Silver;
+            this.btn3101.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3101.FlatAppearance.BorderSize = 0;
             this.btn3101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3101.ForeColor = System.Drawing.Color.Black;
@@ -712,14 +1009,19 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox3.Controls.Add(this.pictureBox17);
+            this.groupBox3.Controls.Add(this.pictureBox40);
+            this.groupBox3.Controls.Add(this.pictureBox36);
+            this.groupBox3.Controls.Add(this.pictureBox29);
+            this.groupBox3.Controls.Add(this.pictureBox30);
             this.groupBox3.Controls.Add(this.pictureBox16);
             this.groupBox3.Controls.Add(this.pictureBox13);
             this.groupBox3.Controls.Add(this.btn2801);
             this.groupBox3.Controls.Add(this.label62);
             this.groupBox3.Controls.Add(this.label37);
+            this.groupBox3.Controls.Add(this.pictureBox23);
             this.groupBox3.Controls.Add(this.pictureBox11);
             this.groupBox3.Controls.Add(this.btn2701);
+            this.groupBox3.Controls.Add(this.pictureBox22);
             this.groupBox3.Controls.Add(this.pictureBox12);
             this.groupBox3.Controls.Add(this.label40);
             this.groupBox3.Controls.Add(this.label41);
@@ -742,9 +1044,76 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "2.KAT";
             // 
+            // pictureBox40
+            // 
+            this.pictureBox40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox40.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox40.Location = new System.Drawing.Point(806, 23);
+            this.pictureBox40.Name = "pictureBox40";
+            this.pictureBox40.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox40.TabIndex = 20;
+            this.pictureBox40.TabStop = false;
+            // 
+            // pictureBox36
+            // 
+            this.pictureBox36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox36.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox36.Location = new System.Drawing.Point(89, 23);
+            this.pictureBox36.Name = "pictureBox36";
+            this.pictureBox36.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox36.TabIndex = 19;
+            this.pictureBox36.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox29.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox29.Location = new System.Drawing.Point(684, 23);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox29.TabIndex = 18;
+            this.pictureBox29.TabStop = false;
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox30.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox30.Location = new System.Drawing.Point(704, 23);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox30.TabIndex = 19;
+            this.pictureBox30.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox16.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox16.Location = new System.Drawing.Point(600, 23);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox16.TabIndex = 17;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox13.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox13.Location = new System.Drawing.Point(497, 23);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 17;
+            this.pictureBox13.TabStop = false;
+            // 
             // btn2801
             // 
             this.btn2801.BackColor = System.Drawing.Color.Silver;
+            this.btn2801.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2801.FlatAppearance.BorderSize = 0;
             this.btn2801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2801.ForeColor = System.Drawing.Color.Black;
@@ -779,9 +1148,32 @@
             this.label37.Text = "2701";
             this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // pictureBox23
+            // 
+            this.pictureBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox23.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox23.Location = new System.Drawing.Point(170, 23);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox23.TabIndex = 15;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox11.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox11.Location = new System.Drawing.Point(294, 23);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 16;
+            this.pictureBox11.TabStop = false;
+            // 
             // btn2701
             // 
             this.btn2701.BackColor = System.Drawing.Color.Silver;
+            this.btn2701.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2701.FlatAppearance.BorderSize = 0;
             this.btn2701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2701.ForeColor = System.Drawing.Color.Black;
@@ -791,6 +1183,28 @@
             this.btn2701.TabIndex = 13;
             this.btn2701.Text = "BOŞ";
             this.btn2701.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox22.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox22.Location = new System.Drawing.Point(190, 23);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox22.TabIndex = 15;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox12.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox12.Location = new System.Drawing.Point(395, 23);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 16;
+            this.pictureBox12.TabStop = false;
             // 
             // label40
             // 
@@ -819,6 +1233,7 @@
             // btn2601
             // 
             this.btn2601.BackColor = System.Drawing.Color.Silver;
+            this.btn2601.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2601.FlatAppearance.BorderSize = 0;
             this.btn2601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2601.ForeColor = System.Drawing.Color.Black;
@@ -832,6 +1247,7 @@
             // btn2501
             // 
             this.btn2501.BackColor = System.Drawing.Color.Silver;
+            this.btn2501.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2501.FlatAppearance.BorderSize = 0;
             this.btn2501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2501.ForeColor = System.Drawing.Color.Black;
@@ -869,6 +1285,7 @@
             // btn2401
             // 
             this.btn2401.BackColor = System.Drawing.Color.Silver;
+            this.btn2401.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2401.FlatAppearance.BorderSize = 0;
             this.btn2401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2401.ForeColor = System.Drawing.Color.Black;
@@ -906,6 +1323,7 @@
             // btn2301
             // 
             this.btn2301.BackColor = System.Drawing.Color.Silver;
+            this.btn2301.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2301.FlatAppearance.BorderSize = 0;
             this.btn2301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2301.ForeColor = System.Drawing.Color.Black;
@@ -919,6 +1337,7 @@
             // btn2101
             // 
             this.btn2101.BackColor = System.Drawing.Color.Silver;
+            this.btn2101.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2101.FlatAppearance.BorderSize = 0;
             this.btn2101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2101.ForeColor = System.Drawing.Color.Black;
@@ -932,6 +1351,7 @@
             // btn2201
             // 
             this.btn2201.BackColor = System.Drawing.Color.Silver;
+            this.btn2201.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2201.FlatAppearance.BorderSize = 0;
             this.btn2201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2201.ForeColor = System.Drawing.Color.Black;
@@ -945,15 +1365,22 @@
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox4.Controls.Add(this.pictureBox41);
+            this.groupBox4.Controls.Add(this.pictureBox38);
+            this.groupBox4.Controls.Add(this.pictureBox37);
+            this.groupBox4.Controls.Add(this.pictureBox31);
             this.groupBox4.Controls.Add(this.pictureBox15);
+            this.groupBox4.Controls.Add(this.pictureBox32);
             this.groupBox4.Controls.Add(this.pictureBox14);
             this.groupBox4.Controls.Add(this.btn1801);
             this.groupBox4.Controls.Add(this.label64);
             this.groupBox4.Controls.Add(this.label45);
-            this.groupBox4.Controls.Add(this.label48);
+            this.groupBox4.Controls.Add(this.pictureBox25);
+            this.groupBox4.Controls.Add(this.pictureBox26);
             this.groupBox4.Controls.Add(this.btn1701);
             this.groupBox4.Controls.Add(this.label49);
             this.groupBox4.Controls.Add(this.label51);
+            this.groupBox4.Controls.Add(this.pictureBox24);
             this.groupBox4.Controls.Add(this.label53);
             this.groupBox4.Controls.Add(this.btn1601);
             this.groupBox4.Controls.Add(this.btn1501);
@@ -963,6 +1390,8 @@
             this.groupBox4.Controls.Add(this.btn1401);
             this.groupBox4.Controls.Add(this.btn1101);
             this.groupBox4.Controls.Add(this.btn1301);
+            this.groupBox4.Controls.Add(this.label48);
+            this.groupBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.groupBox4.Font = new System.Drawing.Font("Arial", 10F);
             this.groupBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.groupBox4.Location = new System.Drawing.Point(55, 388);
@@ -972,9 +1401,94 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "1.KAT";
             // 
+            // pictureBox41
+            // 
+            this.pictureBox41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox41.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox41.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox41.Location = new System.Drawing.Point(806, 23);
+            this.pictureBox41.Name = "pictureBox41";
+            this.pictureBox41.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox41.TabIndex = 21;
+            this.pictureBox41.TabStop = false;
+            // 
+            // pictureBox38
+            // 
+            this.pictureBox38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox38.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox38.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox38.Location = new System.Drawing.Point(395, 23);
+            this.pictureBox38.Name = "pictureBox38";
+            this.pictureBox38.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox38.TabIndex = 22;
+            this.pictureBox38.TabStop = false;
+            // 
+            // pictureBox37
+            // 
+            this.pictureBox37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox37.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox37.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox37.Location = new System.Drawing.Point(89, 23);
+            this.pictureBox37.Name = "pictureBox37";
+            this.pictureBox37.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox37.TabIndex = 20;
+            this.pictureBox37.TabStop = false;
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox31.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox31.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox31.Location = new System.Drawing.Point(684, 23);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox31.TabIndex = 20;
+            this.pictureBox31.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox15.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox15.Location = new System.Drawing.Point(600, 23);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox15.TabIndex = 17;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox32
+            // 
+            this.pictureBox32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox32.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox32.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox32.Location = new System.Drawing.Point(704, 23);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox32.TabIndex = 21;
+            this.pictureBox32.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox14.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
+            this.pictureBox14.Location = new System.Drawing.Point(497, 23);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 17;
+            this.pictureBox14.TabStop = false;
+            // 
             // btn1801
             // 
             this.btn1801.BackColor = System.Drawing.Color.Silver;
+            this.btn1801.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1801.FlatAppearance.BorderSize = 0;
             this.btn1801.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1801.ForeColor = System.Drawing.Color.Black;
@@ -988,6 +1502,7 @@
             // label64
             // 
             this.label64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label64.Cursor = System.Windows.Forms.Cursors.Default;
             this.label64.Font = new System.Drawing.Font("Arial", 10F);
             this.label64.ForeColor = System.Drawing.Color.Black;
             this.label64.Location = new System.Drawing.Point(750, 23);
@@ -1000,6 +1515,7 @@
             // label45
             // 
             this.label45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label45.Cursor = System.Windows.Forms.Cursors.Default;
             this.label45.Font = new System.Drawing.Font("Arial", 10F);
             this.label45.ForeColor = System.Drawing.Color.Black;
             this.label45.Location = new System.Drawing.Point(648, 23);
@@ -1009,21 +1525,34 @@
             this.label45.Text = "1701";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label48
+            // pictureBox25
             // 
-            this.label48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label48.Font = new System.Drawing.Font("Arial", 10F);
-            this.label48.ForeColor = System.Drawing.Color.Black;
-            this.label48.Location = new System.Drawing.Point(238, 23);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(79, 23);
-            this.label48.TabIndex = 0;
-            this.label48.Text = "1301";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.pictureBox25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox25.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox25.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox25.Location = new System.Drawing.Point(170, 23);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox25.TabIndex = 15;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox26.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox26.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox26.Location = new System.Drawing.Point(294, 23);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox26.TabIndex = 16;
+            this.pictureBox26.TabStop = false;
             // 
             // btn1701
             // 
             this.btn1701.BackColor = System.Drawing.Color.Silver;
+            this.btn1701.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1701.FlatAppearance.BorderSize = 0;
             this.btn1701.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1701.ForeColor = System.Drawing.Color.Black;
@@ -1037,6 +1566,7 @@
             // label49
             // 
             this.label49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label49.Cursor = System.Windows.Forms.Cursors.Default;
             this.label49.Font = new System.Drawing.Font("Arial", 10F);
             this.label49.ForeColor = System.Drawing.Color.Black;
             this.label49.Location = new System.Drawing.Point(441, 23);
@@ -1049,6 +1579,7 @@
             // label51
             // 
             this.label51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label51.Cursor = System.Windows.Forms.Cursors.Default;
             this.label51.Font = new System.Drawing.Font("Arial", 10F);
             this.label51.ForeColor = System.Drawing.Color.Black;
             this.label51.Location = new System.Drawing.Point(544, 23);
@@ -1058,9 +1589,22 @@
             this.label51.Text = "1601";
             this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // pictureBox24
+            // 
+            this.pictureBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox24.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox24.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
+            this.pictureBox24.Location = new System.Drawing.Point(190, 23);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox24.TabIndex = 15;
+            this.pictureBox24.TabStop = false;
+            // 
             // label53
             // 
             this.label53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label53.Cursor = System.Windows.Forms.Cursors.Default;
             this.label53.Font = new System.Drawing.Font("Arial", 10F);
             this.label53.ForeColor = System.Drawing.Color.Black;
             this.label53.Location = new System.Drawing.Point(339, 23);
@@ -1073,6 +1617,7 @@
             // btn1601
             // 
             this.btn1601.BackColor = System.Drawing.Color.Silver;
+            this.btn1601.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1601.FlatAppearance.BorderSize = 0;
             this.btn1601.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1601.ForeColor = System.Drawing.Color.Black;
@@ -1086,6 +1631,7 @@
             // btn1501
             // 
             this.btn1501.BackColor = System.Drawing.Color.Silver;
+            this.btn1501.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1501.FlatAppearance.BorderSize = 0;
             this.btn1501.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1501.ForeColor = System.Drawing.Color.Black;
@@ -1099,6 +1645,7 @@
             // label55
             // 
             this.label55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label55.Cursor = System.Windows.Forms.Cursors.Default;
             this.label55.Font = new System.Drawing.Font("Arial", 10F);
             this.label55.ForeColor = System.Drawing.Color.Black;
             this.label55.Location = new System.Drawing.Point(134, 23);
@@ -1111,6 +1658,7 @@
             // label57
             // 
             this.label57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label57.Cursor = System.Windows.Forms.Cursors.Default;
             this.label57.Font = new System.Drawing.Font("Arial", 10F);
             this.label57.ForeColor = System.Drawing.Color.Black;
             this.label57.Location = new System.Drawing.Point(33, 23);
@@ -1123,6 +1671,7 @@
             // btn1201
             // 
             this.btn1201.BackColor = System.Drawing.Color.Silver;
+            this.btn1201.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1201.FlatAppearance.BorderSize = 0;
             this.btn1201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1201.ForeColor = System.Drawing.Color.Black;
@@ -1136,6 +1685,7 @@
             // btn1401
             // 
             this.btn1401.BackColor = System.Drawing.Color.Silver;
+            this.btn1401.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1401.FlatAppearance.BorderSize = 0;
             this.btn1401.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1401.ForeColor = System.Drawing.Color.Black;
@@ -1149,6 +1699,7 @@
             // btn1101
             // 
             this.btn1101.BackColor = System.Drawing.Color.Silver;
+            this.btn1101.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1101.FlatAppearance.BorderSize = 0;
             this.btn1101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1101.ForeColor = System.Drawing.Color.Black;
@@ -1162,6 +1713,7 @@
             // btn1301
             // 
             this.btn1301.BackColor = System.Drawing.Color.Silver;
+            this.btn1301.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1301.FlatAppearance.BorderSize = 0;
             this.btn1301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1301.ForeColor = System.Drawing.Color.Black;
@@ -1171,6 +1723,19 @@
             this.btn1301.TabIndex = 13;
             this.btn1301.Text = "BOŞ";
             this.btn1301.UseVisualStyleBackColor = false;
+            // 
+            // label48
+            // 
+            this.label48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label48.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label48.Font = new System.Drawing.Font("Arial", 10F);
+            this.label48.ForeColor = System.Drawing.Color.Black;
+            this.label48.Location = new System.Drawing.Point(238, 23);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(79, 23);
+            this.label48.TabIndex = 0;
+            this.label48.Text = "1301";
+            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label66
             // 
@@ -1199,7 +1764,7 @@
             this.cbOdaTur.Location = new System.Drawing.Point(184, 24);
             this.cbOdaTur.Name = "cbOdaTur";
             this.cbOdaTur.Size = new System.Drawing.Size(197, 24);
-            this.cbOdaTur.TabIndex = 6;
+            this.cbOdaTur.TabIndex = 0;
             // 
             // cbOpsiyon
             // 
@@ -1208,7 +1773,7 @@
             this.cbOpsiyon.Location = new System.Drawing.Point(184, 46);
             this.cbOpsiyon.Name = "cbOpsiyon";
             this.cbOpsiyon.Size = new System.Drawing.Size(197, 24);
-            this.cbOpsiyon.TabIndex = 6;
+            this.cbOpsiyon.TabIndex = 1;
             // 
             // label67
             // 
@@ -1241,7 +1806,7 @@
             this.cbKat.Location = new System.Drawing.Point(184, 68);
             this.cbKat.Name = "cbKat";
             this.cbKat.Size = new System.Drawing.Size(197, 24);
-            this.cbKat.TabIndex = 6;
+            this.cbKat.TabIndex = 2;
             // 
             // label69
             // 
@@ -1261,7 +1826,7 @@
             this.txtSoyad.Location = new System.Drawing.Point(558, 41);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(195, 23);
-            this.txtSoyad.TabIndex = 5;
+            this.txtSoyad.TabIndex = 6;
             // 
             // txtKimlikNo
             // 
@@ -1270,7 +1835,7 @@
             this.txtKimlikNo.MaxLength = 11;
             this.txtKimlikNo.Name = "txtKimlikNo";
             this.txtKimlikNo.Size = new System.Drawing.Size(195, 23);
-            this.txtKimlikNo.TabIndex = 5;
+            this.txtKimlikNo.TabIndex = 7;
             // 
             // label71
             // 
@@ -1303,7 +1868,7 @@
             this.cbCinsiyet.Location = new System.Drawing.Point(558, 105);
             this.cbCinsiyet.Name = "cbCinsiyet";
             this.cbCinsiyet.Size = new System.Drawing.Size(195, 24);
-            this.cbCinsiyet.TabIndex = 7;
+            this.cbCinsiyet.TabIndex = 9;
             // 
             // cbMedeniHal
             // 
@@ -1312,7 +1877,7 @@
             this.cbMedeniHal.Location = new System.Drawing.Point(558, 127);
             this.cbMedeniHal.Name = "cbMedeniHal";
             this.cbMedeniHal.Size = new System.Drawing.Size(195, 24);
-            this.cbMedeniHal.TabIndex = 7;
+            this.cbMedeniHal.TabIndex = 10;
             // 
             // label73
             // 
@@ -1352,7 +1917,7 @@
             this.txtGiris.Location = new System.Drawing.Point(184, 91);
             this.txtGiris.Name = "txtGiris";
             this.txtGiris.Size = new System.Drawing.Size(178, 23);
-            this.txtGiris.TabIndex = 8;
+            this.txtGiris.TabIndex = 3;
             // 
             // dtpCikis
             // 
@@ -1368,7 +1933,7 @@
             this.txtCikis.Location = new System.Drawing.Point(184, 111);
             this.txtCikis.Name = "txtCikis";
             this.txtCikis.Size = new System.Drawing.Size(178, 23);
-            this.txtCikis.TabIndex = 8;
+            this.txtCikis.TabIndex = 4;
             // 
             // label75
             // 
@@ -1452,7 +2017,7 @@
             this.txtAdres.Multiline = true;
             this.txtAdres.Name = "txtAdres";
             this.txtAdres.Size = new System.Drawing.Size(195, 38);
-            this.txtAdres.TabIndex = 9;
+            this.txtAdres.TabIndex = 11;
             // 
             // panel1
             // 
@@ -1499,15 +2064,17 @@
             this.panel1.Location = new System.Drawing.Point(0, 504);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1264, 229);
-            this.panel1.TabIndex = 10;
+            this.panel1.TabIndex = 0;
             // 
             // txtCheckIn
             // 
+            this.txtCheckIn.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCheckIn.Font = new System.Drawing.Font("Arial", 10F);
             this.txtCheckIn.Location = new System.Drawing.Point(1008, 41);
+            this.txtCheckIn.Multiline = true;
             this.txtCheckIn.Name = "txtCheckIn";
             this.txtCheckIn.Size = new System.Drawing.Size(195, 23);
-            this.txtCheckIn.TabIndex = 12;
+            this.txtCheckIn.TabIndex = 13;
             // 
             // label85
             // 
@@ -1543,6 +2110,7 @@
             // 
             // pbKimlikDogrula
             // 
+            this.pbKimlikDogrula.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbKimlikDogrula.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.search_icon_orange;
             this.pbKimlikDogrula.Location = new System.Drawing.Point(759, 19);
             this.pbKimlikDogrula.Name = "pbKimlikDogrula";
@@ -1550,13 +2118,14 @@
             this.pbKimlikDogrula.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbKimlikDogrula.TabIndex = 11;
             this.pbKimlikDogrula.TabStop = false;
+            this.toolTip1.SetToolTip(this.pbKimlikDogrula, "Kimlik Sorgulama\r\n");
             // 
             // txtTelefon
             // 
             this.txtTelefon.Location = new System.Drawing.Point(558, 85);
             this.txtTelefon.Name = "txtTelefon";
             this.txtTelefon.Size = new System.Drawing.Size(195, 21);
-            this.txtTelefon.TabIndex = 10;
+            this.txtTelefon.TabIndex = 8;
             // 
             // label70
             // 
@@ -1587,6 +2156,8 @@
             this.groupBox7.Controls.Add(this.rbBalkon);
             this.groupBox7.Controls.Add(this.rbKose);
             this.groupBox7.Controls.Add(this.rbDM);
+            this.groupBox7.Cursor = System.Windows.Forms.Cursors.No;
+            this.groupBox7.Enabled = false;
             this.groupBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.groupBox7.Location = new System.Drawing.Point(1008, 85);
             this.groupBox7.Name = "groupBox7";
@@ -1635,6 +2206,8 @@
             // 
             this.groupBox6.Controls.Add(this.rbNoSmoking);
             this.groupBox6.Controls.Add(this.rbSmoking);
+            this.groupBox6.Cursor = System.Windows.Forms.Cursors.No;
+            this.groupBox6.Enabled = false;
             this.groupBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.groupBox6.Location = new System.Drawing.Point(836, 85);
             this.groupBox6.Name = "groupBox6";
@@ -1646,6 +2219,7 @@
             // rbNoSmoking
             // 
             this.rbNoSmoking.AutoSize = true;
+            this.rbNoSmoking.Checked = true;
             this.rbNoSmoking.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.rbNoSmoking.Location = new System.Drawing.Point(15, 54);
             this.rbNoSmoking.Name = "rbNoSmoking";
@@ -1663,7 +2237,6 @@
             this.rbSmoking.Name = "rbSmoking";
             this.rbSmoking.Size = new System.Drawing.Size(106, 19);
             this.rbSmoking.TabIndex = 14;
-            this.rbSmoking.TabStop = true;
             this.rbSmoking.Text = "Sigara İçilebilir";
             this.rbSmoking.UseVisualStyleBackColor = true;
             // 
@@ -1784,189 +2357,16 @@
             this.btnOK.Size = new System.Drawing.Size(1264, 28);
             this.btnOK.TabIndex = 14;
             this.btnOK.Text = "İşlemi Tamamla ";
+            this.toolTip1.SetToolTip(this.btnOK, "İşlemi tamamlamak için butona tıklayınız.");
             this.btnOK.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox2.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
-            this.pictureBox2.Location = new System.Drawing.Point(294, 23);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 16;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox3.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
-            this.pictureBox3.Location = new System.Drawing.Point(600, 23);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 17;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox4.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
-            this.pictureBox4.Location = new System.Drawing.Point(497, 23);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 17;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox5.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
-            this.pictureBox5.Location = new System.Drawing.Point(89, 23);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 15;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox6.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
-            this.pictureBox6.Location = new System.Drawing.Point(395, 22);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 16;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox7.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
-            this.pictureBox7.Location = new System.Drawing.Point(395, 22);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 16;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox8.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
-            this.pictureBox8.Location = new System.Drawing.Point(497, 23);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 17;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox9.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
-            this.pictureBox9.Location = new System.Drawing.Point(600, 22);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 17;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox10.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
-            this.pictureBox10.Location = new System.Drawing.Point(294, 23);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 16;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox11.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
-            this.pictureBox11.Location = new System.Drawing.Point(294, 23);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 16;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox12.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.double_png_image_96290;
-            this.pictureBox12.Location = new System.Drawing.Point(395, 23);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 16;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox13.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
-            this.pictureBox13.Location = new System.Drawing.Point(497, 22);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 17;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox14.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
-            this.pictureBox14.Location = new System.Drawing.Point(497, 23);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 17;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox15.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
-            this.pictureBox15.Location = new System.Drawing.Point(600, 23);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 17;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox16.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
-            this.pictureBox16.Location = new System.Drawing.Point(600, 23);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 17;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox17.Image = global::OtelOtomasyon.WinForm.UI.Properties.Resources.single_bed_512;
-            this.pictureBox17.Location = new System.Drawing.Point(704, 23);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 17;
-            this.pictureBox17.TabStop = false;
             // 
             // FormResepsiyon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::OtelOtomasyon.WinForm.UI.Properties.Resources.backgroundpattern_min;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1264, 761);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox4);
@@ -1982,12 +2382,53 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Resepsiyon";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FormResepsiyon_Load);
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbKimlikDogrula)).EndInit();
@@ -2000,22 +2441,6 @@
             this.panel2.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2164,5 +2589,30 @@
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureBox39;
+        private System.Windows.Forms.PictureBox pictureBox33;
+        private System.Windows.Forms.PictureBox pictureBox34;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.PictureBox pictureBox35;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox pictureBox40;
+        private System.Windows.Forms.PictureBox pictureBox36;
+        private System.Windows.Forms.PictureBox pictureBox29;
+        private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox pictureBox41;
+        private System.Windows.Forms.PictureBox pictureBox38;
+        private System.Windows.Forms.PictureBox pictureBox37;
+        private System.Windows.Forms.PictureBox pictureBox31;
+        private System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

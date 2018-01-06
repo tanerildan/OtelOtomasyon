@@ -1,5 +1,6 @@
 ﻿using OtelOtomasyon.Core.Abstract;
 using OtelOtomasyon.Core.Concrete;
+using OtelOtomasyon.DAL.Entities;
 using OtelOtomasyon.Repository.UOW.Abstract;
 using System;
 using System.Collections.Generic;
@@ -51,7 +52,7 @@ namespace OtelOtomasyon.Repository.UOW.Concrete
             }
         }
 
-        public IRepository<T> GetRepo<T>() where T : class, new()
+        public IRepository<T> GetRepo<T>() where T : BaseEntity, new()
         {
             return new EFRepositoryBase<T, DbContext>(_context);
         }

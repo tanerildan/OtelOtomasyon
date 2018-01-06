@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Ninject;
+using OtelOtomasyon.WinForm.UI.Ninject;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,8 +16,19 @@ namespace OtelOtomasyon.WinForm.UI
     {
         public FormResepsiyon()
         {
+            var container = NinjectDependencyContainer.RegisterDependency(new StandardKernel());
             InitializeComponent();
         }
 
+        private void FormResepsiyon_Load(object sender, EventArgs e)
+        {
+            //OdaTurDoldur();
+            //OdaOpsiyonDoldur();
+            //KatDoldur();
+            //CinsiyetDoldur();
+            //MedeniHalDoldur();
+            //BosOdaKontrol();
+
+        }
     }
 }

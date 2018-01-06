@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OtelOtomasyon.DAL.Entities
 {
-   public  class Personel
+   public  class Personel:BaseEntity
     {
         public int Id { get; set; }
         public string AdSoyad { get; set; }
@@ -17,7 +17,6 @@ namespace OtelOtomasyon.DAL.Entities
         public Boolean Aktif { get; set; }
         public DateTime IseGirisTarihi { get; set; }
         public string Telefon { get; set; }
-        public decimal Maas { get; set; }
         public int LoginId { get; set; }
 
         public virtual Login Login { get; set; }

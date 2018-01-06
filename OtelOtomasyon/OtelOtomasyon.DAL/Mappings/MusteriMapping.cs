@@ -49,6 +49,11 @@ namespace OtelOtomasyon.DAL.Mappings
             .HasColumnOrder(7)
             .IsOptional();
 
+            Property(x => x.AracPlaka)
+                .HasColumnType("nvarchar")
+                .HasMaxLength(10)
+                .IsOptional(); 
+
 
         }
     }

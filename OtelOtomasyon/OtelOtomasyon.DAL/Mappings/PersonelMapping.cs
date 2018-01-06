@@ -61,10 +61,6 @@ namespace OtelOtomasyon.DAL.Mappings
           .IsRequired()
           .HasMaxLength(20);
 
-            Property(x => x.Maas)
-         .HasColumnType("money")
-         .HasColumnOrder(10)
-         .IsRequired();
 
            
         }

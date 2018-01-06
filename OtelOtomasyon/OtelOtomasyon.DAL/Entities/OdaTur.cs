@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OtelOtomasyon.DAL.Entities
 {
-    public class OdaTur
+    public class OdaTur:BaseEntity
     {
         public int Id { get; set; }
         public string TurAd { get; set; }

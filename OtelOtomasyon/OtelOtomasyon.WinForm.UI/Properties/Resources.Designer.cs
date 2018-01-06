@@ -83,6 +83,16 @@ namespace OtelOtomasyon.WinForm.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backgroundpattern_min {
+            get {
+                object obj = ResourceManager.GetObject("backgroundpattern-min", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap button_giris {
             get {
                 object obj = ResourceManager.GetObject("button_giris", resourceCulture);
@@ -96,6 +106,16 @@ namespace OtelOtomasyon.WinForm.UI.Properties {
         internal static System.Drawing.Bitmap double_png_image_96290 {
             get {
                 object obj = ResourceManager.GetObject("double-png-image-96290", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap double_png_image_96291 {
+            get {
+                object obj = ResourceManager.GetObject("double-png-image-96291", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

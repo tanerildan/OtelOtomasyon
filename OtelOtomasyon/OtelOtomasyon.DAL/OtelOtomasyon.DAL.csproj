@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\ProjectContext.cs" />
+    <Compile Include="Entities\BaseEntity.cs" />
     <Compile Include="Entities\Fiyat.cs" />
     <Compile Include="Entities\Kat.cs" />
     <Compile Include="Entities\Login.cs" />

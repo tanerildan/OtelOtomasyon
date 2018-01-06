@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OtelOtomasyon.DAL.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 namespace OtelOtomasyon.Core.Abstract
 {
     public interface IRepository<T>
-        where T:class, new()
+        where T:BaseEntity, new()
     {
         void Add(T model);
 
@@ -24,6 +25,6 @@ namespace OtelOtomasyon.Core.Abstract
 
         IQueryable<T> WhereByQuery(Expression<Func<T, bool>> lambda);
 
-        int Save();
+     
     }
 }

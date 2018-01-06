@@ -55,7 +55,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\OtelOtomasyon.DAL\OtelOtomasyon.DAL.csproj">
+      <Project>{840CE27E-8AE0-4806-AFD0-60BC0325A8BF}</Project>
+      <Name>OtelOtomasyon.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

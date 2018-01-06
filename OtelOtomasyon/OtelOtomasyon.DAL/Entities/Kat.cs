@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OtelOtomasyon.DAL.Entities
 {
-   public class Kat
+   public class Kat:BaseEntity
     {
         public int Id { get; set; }
         public int KatNo { get; set; }

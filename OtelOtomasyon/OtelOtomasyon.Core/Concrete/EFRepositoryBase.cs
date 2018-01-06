@@ -6,11 +6,12 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
+using OtelOtomasyon.DAL.Entities;
 
 namespace OtelOtomasyon.Core.Concrete
 {
     public class EFRepositoryBase<T, TContext> : IRepository<T>, IDisposable
-        where T : class, new()
+        where T : BaseEntity, new()
         where TContext : DbContext
     {
         protected DbContext _dbContext;
@@ -80,9 +81,5 @@ namespace OtelOtomasyon.Core.Concrete
             return _dbSet.Where(lambda).AsQueryable<T>();
         }
 
-        public int Save()
-        {
-            return _dbContext.SaveChanges();
-        }
     }
 }

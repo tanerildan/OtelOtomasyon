@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace OtelOtomasyon.DAL.Entities
 {
-   public class Role:BaseEntity
+    public abstract class BaseEntity
     {
         public int Id { get; set; }
-        public string RoleName { get; set; }
-
-        public virtual ICollection<Login> Loginler { get; set; }
     }
 }
