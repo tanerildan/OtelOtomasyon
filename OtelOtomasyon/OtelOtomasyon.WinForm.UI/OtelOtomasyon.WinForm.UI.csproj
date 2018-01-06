@@ -140,11 +140,17 @@
     <EmbeddedResource Include="FormAnasayfa.resx">
       <DependentUpon>FormAnasayfa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormFatura.resx">
+      <DependentUpon>FormFatura.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormKimlikSorgulama.resx">
       <DependentUpon>FormKimlikSorgulama.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOdaIslemleri.resx">
+      <DependentUpon>FormOdaIslemleri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormResepsiyon.resx">
       <DependentUpon>FormResepsiyon.cs</DependentUpon>

@@ -51,17 +51,51 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTOs\ResultModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Abstracts\IFiyatService.cs" />
+    <Compile Include="Services\Abstracts\IKatService.cs" />
+    <Compile Include="Services\Abstracts\ILoginService.cs" />
+    <Compile Include="Services\Abstracts\IMusteriService.cs" />
+    <Compile Include="Services\Abstracts\IOdaService.cs" />
+    <Compile Include="Services\Abstracts\IOdaTurService.cs" />
+    <Compile Include="Services\Abstracts\IOzellikService.cs" />
+    <Compile Include="Services\Abstracts\IPersonelService.cs" />
+    <Compile Include="Services\Abstracts\IRezervasyonService.cs" />
+    <Compile Include="Services\Abstracts\IRoleService.cs" />
+    <Compile Include="Services\Abstracts\ISatisService.cs" />
+    <Compile Include="Services\Concretes\FiyatService.cs" />
+    <Compile Include="Services\Concretes\KatService.cs" />
+    <Compile Include="Services\Concretes\LoginService.cs" />
+    <Compile Include="Services\Concretes\MusteriService.cs" />
+    <Compile Include="Services\Concretes\OdaService.cs" />
+    <Compile Include="Services\Concretes\OdaTurService.cs" />
+    <Compile Include="Services\Concretes\OzellikService.cs" />
+    <Compile Include="Services\Concretes\PersonelService.cs" />
+    <Compile Include="Services\Concretes\RezervasyonService.cs" />
+    <Compile Include="Services\Concretes\RoleService.cs" />
+    <Compile Include="Services\Concretes\SatisService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="asd\" />
-    <Folder Include="DTOs\" />
-    <Folder Include="Services\" />
     <Folder Include="Validations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OtelOtomasyon.Core\OtelOtomasyon.Core.csproj">
+      <Project>{9e5e7cda-f6dc-4380-9819-07bfe0a3b1e1}</Project>
+      <Name>OtelOtomasyon.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OtelOtomasyon.DAL\OtelOtomasyon.DAL.csproj">
+      <Project>{840ce27e-8ae0-4806-afd0-60bc0325a8bf}</Project>
+      <Name>OtelOtomasyon.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OtelOtomasyon.Repository\OtelOtomasyon.Repository.csproj">
+      <Project>{a0f4e085-6d95-446b-a926-26cd8984bd54}</Project>
+      <Name>OtelOtomasyon.Repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
