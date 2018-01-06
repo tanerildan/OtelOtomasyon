@@ -172,7 +172,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtCheckIn = new System.Windows.Forms.TextBox();
             this.label85 = new System.Windows.Forms.Label();
-            this.txtPlaka = new System.Windows.Forms.TextBox();
             this.label84 = new System.Windows.Forms.Label();
             this.pbKimlikDogrula = new System.Windows.Forms.PictureBox();
             this.txtTelefon = new System.Windows.Forms.MaskedTextBox();
@@ -196,6 +195,7 @@
             this.lbSonHareketler = new System.Windows.Forms.ListBox();
             this.btnOK = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.txtPlaka = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
@@ -272,6 +272,7 @@
             this.dtpTarih.Name = "dtpTarih";
             this.dtpTarih.Size = new System.Drawing.Size(1264, 23);
             this.dtpTarih.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.dtpTarih, "Seçilen tarihteki otel doluluk durumunu gösterir.");
             // 
             // groupBox1
             // 
@@ -1910,6 +1911,7 @@
             this.dtpGiris.Name = "dtpGiris";
             this.dtpGiris.Size = new System.Drawing.Size(25, 23);
             this.dtpGiris.TabIndex = 7;
+            this.dtpGiris.ValueChanged += new System.EventHandler(this.dtpGiris_ValueChanged);
             // 
             // txtGiris
             // 
@@ -1922,15 +1924,16 @@
             // dtpCikis
             // 
             this.dtpCikis.Font = new System.Drawing.Font("Arial", 10F);
-            this.dtpCikis.Location = new System.Drawing.Point(356, 111);
+            this.dtpCikis.Location = new System.Drawing.Point(356, 113);
             this.dtpCikis.Name = "dtpCikis";
             this.dtpCikis.Size = new System.Drawing.Size(25, 23);
             this.dtpCikis.TabIndex = 7;
+            this.dtpCikis.ValueChanged += new System.EventHandler(this.dtpCikis_ValueChanged);
             // 
             // txtCikis
             // 
             this.txtCikis.Font = new System.Drawing.Font("Arial", 10F);
-            this.txtCikis.Location = new System.Drawing.Point(184, 111);
+            this.txtCikis.Location = new System.Drawing.Point(184, 113);
             this.txtCikis.Name = "txtCikis";
             this.txtCikis.Size = new System.Drawing.Size(178, 23);
             this.txtCikis.TabIndex = 4;
@@ -2022,20 +2025,21 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.txtTelefon);
+            this.panel1.Controls.Add(this.txtCikis);
+            this.panel1.Controls.Add(this.txtGiris);
+            this.panel1.Controls.Add(this.dtpGiris);
+            this.panel1.Controls.Add(this.txtPlaka);
             this.panel1.Controls.Add(this.txtCheckIn);
             this.panel1.Controls.Add(this.label85);
-            this.panel1.Controls.Add(this.txtPlaka);
             this.panel1.Controls.Add(this.label84);
             this.panel1.Controls.Add(this.txtAd);
             this.panel1.Controls.Add(this.pbKimlikDogrula);
-            this.panel1.Controls.Add(this.txtTelefon);
             this.panel1.Controls.Add(this.txtOdaBilgisi);
             this.panel1.Controls.Add(this.label66);
             this.panel1.Controls.Add(this.label78);
-            this.panel1.Controls.Add(this.txtGiris);
             this.panel1.Controls.Add(this.txtAdres);
             this.panel1.Controls.Add(this.cbOdaTur);
-            this.panel1.Controls.Add(this.dtpGiris);
             this.panel1.Controls.Add(this.label67);
             this.panel1.Controls.Add(this.label79);
             this.panel1.Controls.Add(this.cbOpsiyon);
@@ -2047,7 +2051,6 @@
             this.panel1.Controls.Add(this.label77);
             this.panel1.Controls.Add(this.cbKat);
             this.panel1.Controls.Add(this.cbCinsiyet);
-            this.panel1.Controls.Add(this.txtCikis);
             this.panel1.Controls.Add(this.txtKat);
             this.panel1.Controls.Add(this.txtOdaNo);
             this.panel1.Controls.Add(this.label74);
@@ -2068,9 +2071,8 @@
             // 
             // txtCheckIn
             // 
-            this.txtCheckIn.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCheckIn.Font = new System.Drawing.Font("Arial", 10F);
-            this.txtCheckIn.Location = new System.Drawing.Point(1008, 41);
+            this.txtCheckIn.Location = new System.Drawing.Point(1008, 40);
             this.txtCheckIn.Multiline = true;
             this.txtCheckIn.Name = "txtCheckIn";
             this.txtCheckIn.Size = new System.Drawing.Size(195, 23);
@@ -2087,14 +2089,6 @@
             this.label85.Size = new System.Drawing.Size(141, 16);
             this.label85.TabIndex = 13;
             this.label85.Text = "Check-In Açıklaması :";
-            // 
-            // txtPlaka
-            // 
-            this.txtPlaka.Font = new System.Drawing.Font("Arial", 10F);
-            this.txtPlaka.Location = new System.Drawing.Point(1008, 18);
-            this.txtPlaka.Name = "txtPlaka";
-            this.txtPlaka.Size = new System.Drawing.Size(195, 23);
-            this.txtPlaka.TabIndex = 12;
             // 
             // label84
             // 
@@ -2123,6 +2117,7 @@
             // txtTelefon
             // 
             this.txtTelefon.Location = new System.Drawing.Point(558, 85);
+            this.txtTelefon.Mask = "(999) 000-00-00";
             this.txtTelefon.Name = "txtTelefon";
             this.txtTelefon.Size = new System.Drawing.Size(195, 21);
             this.txtTelefon.TabIndex = 8;
@@ -2360,6 +2355,17 @@
             this.toolTip1.SetToolTip(this.btnOK, "İşlemi tamamlamak için butona tıklayınız.");
             this.btnOK.UseVisualStyleBackColor = false;
             // 
+            // txtPlaka
+            // 
+            this.txtPlaka.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtPlaka.Font = new System.Drawing.Font("Arial", 10F);
+            this.txtPlaka.Location = new System.Drawing.Point(1008, 18);
+            this.txtPlaka.MaxLength = 10;
+            this.txtPlaka.Multiline = true;
+            this.txtPlaka.Name = "txtPlaka";
+            this.txtPlaka.Size = new System.Drawing.Size(195, 23);
+            this.txtPlaka.TabIndex = 13;
+            // 
             // FormResepsiyon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -2531,7 +2537,6 @@
         private System.Windows.Forms.PictureBox pbKimlikDogrula;
         private System.Windows.Forms.TextBox txtCheckIn;
         private System.Windows.Forms.Label label85;
-        private System.Windows.Forms.TextBox txtPlaka;
         private System.Windows.Forms.Label label84;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.RadioButton rbBalkon;
@@ -2614,5 +2619,6 @@
         private System.Windows.Forms.PictureBox pictureBox26;
         private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.TextBox txtPlaka;
     }
 }

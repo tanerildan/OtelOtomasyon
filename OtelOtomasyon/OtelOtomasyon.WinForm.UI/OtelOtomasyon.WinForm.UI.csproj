@@ -125,6 +125,9 @@
     <EmbeddedResource Include="FormOdaIslemleri.resx">
       <DependentUpon>FormOdaIslemleri.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPersonelIslemleri.resx">
+      <DependentUpon>FormPersonelIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormResepsiyon.resx">
       <DependentUpon>FormResepsiyon.cs</DependentUpon>
     </EmbeddedResource>
