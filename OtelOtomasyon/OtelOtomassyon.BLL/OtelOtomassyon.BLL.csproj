@@ -75,14 +75,23 @@
     <Compile Include="Services\Concretes\RezervasyonService.cs" />
     <Compile Include="Services\Concretes\RoleService.cs" />
     <Compile Include="Services\Concretes\SatisService.cs" />
+    <Compile Include="Validations\FiyatValidator.cs" />
+    <Compile Include="Validations\KatValidator.cs" />
+    <Compile Include="Validations\LoginValidator.cs" />
+    <Compile Include="Validations\MusteriValidator.cs" />
+    <Compile Include="Validations\OdaTurValidator.cs" />
+    <Compile Include="Validations\OdaValidator.cs" />
+    <Compile Include="Validations\OzellikValidator.cs" />
+    <Compile Include="Validations\PersonelValidator.cs" />
+    <Compile Include="Validations\RezervasyonValidator.cs" />
+    <Compile Include="Validations\RoleValidator.cs" />
+    <Compile Include="Validations\SatisValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Validations\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\OtelOtomasyon.Core\OtelOtomasyon.Core.csproj">
       <Project>{9e5e7cda-f6dc-4380-9819-07bfe0a3b1e1}</Project>
