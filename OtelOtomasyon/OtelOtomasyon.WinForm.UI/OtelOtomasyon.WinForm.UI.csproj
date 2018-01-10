@@ -35,9 +35,11 @@
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
       <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
@@ -60,6 +62,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormKullaniciAyarlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKullaniciAyarlari.Designer.cs">
+      <DependentUpon>FormKullaniciAyarlari.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ninject\NinjectDependencyContainer.cs" />
     <Compile Include="FormAnasayfa.cs">
       <SubType>Form</SubType>
@@ -118,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormKimlikSorgulama.resx">
       <DependentUpon>FormKimlikSorgulama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKullaniciAyarlari.resx">
+      <DependentUpon>FormKullaniciAyarlari.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
@@ -178,6 +189,10 @@
     <None Include="Resources\search-icon-orange.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\OtelOtomassyon.BLL\OtelOtomassyon.BLL.csproj">
+      <Project>{d73c059d-8953-4020-b830-9f35d7d77f4d}</Project>
+      <Name>OtelOtomassyon.BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OtelOtomasyon.Core\OtelOtomasyon.Core.csproj">
       <Project>{9e5e7cda-f6dc-4380-9819-07bfe0a3b1e1}</Project>
       <Name>OtelOtomasyon.Core</Name>
